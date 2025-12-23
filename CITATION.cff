@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "MetaMudra Games: Educational Interactive Narrative Framework"
+message: "If you use this framework in your work, please cite it as below."
+type: software
+authors:
+  - family-names: "Joseph"
+    given-names: "Aneesh"
+    orcid: "https://orcid.org/0009-0008-1195-7234"
+    affiliation: "Associate Professor (Physiology), Government Medical College Ernakulam, Kerala, India"
+repository-code: "https://github.com/MetaMudraGames"
+abstract: >-
+  MetaMudra Games is an educational framework for creating LLM-driven
+  interactive learning experiences called "MetaDramas." The project
+  explores innovative approaches to teaching through AI-guided gameplay,
+  adaptive narrative instruction, and experiential learning.
+keywords:
+  - Educational Games
+  - Interactive Learning
+  - LLM Education
+  - AI Tutoring
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2025-12-19"
+  
