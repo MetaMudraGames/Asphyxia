@@ -91,7 +91,7 @@ WEAK ARGUMENTS:
 
 | File | Purpose |
 |------|---------|
-| `ASPHYXIA_1_AXIOM.mudra` | The game specification |
+| `ASPHYXIA_1_AXIOM.md` | The game specification |
 | `README.md` | This file |
 | `DESIGN_NOTES.md` | Design rationale and development history |
 
