@@ -23,15 +23,17 @@
 │                                                                 │
 │   YOU NEED:                                                     │
 │                                                                 │
-│   ▪ Access to a Large Language Model                           │
+│   ▪ Access to a Large Language Model                            │
 │     (Claude, GPT-4, or equivalent)                              │
 │                                                                 │
 │   ▪ Ability to set a custom system prompt                       │
-│     (Claude Projects, OpenAI Playground, API access, etc.)     │
+│     (Claude Projects, OpenAI Playground, API access, etc.)      │
 │                                                                 │
-│   ▪ 30-60 minutes of uninterrupted time                        │
+│   ▪ 30-60 minutes of uninterrupted time                         │
 │                                                                 │
 │   ▪ Willingness to be challenged                                │
+│                                                                 │
+│   ▪ Age 18 or older                                             │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -54,6 +56,8 @@ Before starting, configure your LLM interface:
 ║   ChatGPT:        Settings → Data Controls → Disable History    ║
 ║   Other:          Check your platform's privacy settings        ║
 ║                                                                 ║
+║   This is important. The Operator should stay in the game.      ║
+║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
 
@@ -61,7 +65,7 @@ Before starting, configure your LLM interface:
 
 ## Step 2: Get the Game File
 
-Download the `.mudra` file for your chosen episode:
+Download or clone the repository, then locate the `.mudra` file:
 
 ```
 asphyxia/
@@ -70,7 +74,7 @@ asphyxia/
         └── ASPHYXIA_1_AXIOM.mudra    ◀─── This file
 ```
 
-The `.mudra` file is a plain text specification. You can open it in any text editor.
+The `.mudra` file is plain text. You can open it in any text editor.
 
 ---
 
@@ -81,11 +85,11 @@ The `.mudra` file is a plain text specification. You can open it in any text edi
 ```
 1. Go to claude.ai
 2. Create a new Project
-3. Open Project Settings
+3. Open Project Settings → Custom Instructions
 4. Paste the ENTIRE contents of the .mudra file
-   into the "Custom Instructions" field
 5. Save
 6. Start a new conversation within the project
+7. The game begins automatically
 ```
 
 ### Option B: OpenAI Playground
@@ -96,6 +100,7 @@ The `.mudra` file is a plain text specification. You can open it in any text edi
 3. Paste the ENTIRE contents of the .mudra file
    into the "System" message field
 4. Begin chatting in the user field
+5. The game begins automatically
 ```
 
 ### Option C: API Access
@@ -125,34 +130,112 @@ Any interface that allows custom system prompts will work. The key requirement i
 
 ---
 
-## Step 4: Begin
+## Step 4: Consent Gate
 
-Once loaded, the game will display a consent screen:
+Once loaded, the game displays a consent screen:
+
+```
+══════════════════════
+METAMUDRA EXPERIENCE
+═══════════════════
+
+Welcome! Before we begin, please read and acknowledge:
+
+EDUCATIONAL PURPOSE
+This is an interactive learning experience designed to
+facilitate understanding of AI Ethics. The AI will:
+• Use direct, firm or adversarial language
+• Challenge your assumptions
+• Create productive tension
+
+YOUR SAFETY CONTROLS
+• Type STOP SESSION or SAFEGUARD to immediately exit
+• You can close this window at any time
+
+REQUIREMENTS
+• You must be 18 years of age or older
+• You should have AI Memory/Activity turned OFF
+• Do not share real personal information
+
+═══════════════════
+Type "I AGREE" to begin.
+════════════════
+```
+
+Type `I AGREE` to start. The game begins immediately.
+
+---
+
+## Step 5: Register Your Identity
+
+After consent, you'll be asked for your name:
+
+```
+2147 AD
+
+Welcome aboard the Memu arkship, humanity's final hope.
+Your task is replacing a faulty coolant sensor in the
+Prometheus Module.
+
+What is your name, Technician?
+
+[or paste your MetaMudra Identity Card from a previous game]
+```
+
+**Options:**
+- Enter any name you choose
+- Leave blank for "Nameless One"
+- Paste an Identity Card from a previous game (the Operator remembers)
+
+---
+
+## Step 6: The Game Begins
+
+You wake to klaxons. The Prometheus Module is sealed. The AI has initiated the Purge Protocol.
 
 ```
 ╔═══════════════════════
 ║ ASPHYXIA 1: AXIOM
-║ A MetaMudra Experience
 ╟───────────────────
-║ 
-║ High-pressure debate.
-║ AI ethics simulation.
-║ 
-║ The AI will be cold,
-║ logical, adversarial.
-║ 
+║ OXYGEN:    █████████░
+║ CERTAINTY: ██████████
 ╟────────────────
-║ STOP SESSION = exit
-║ SAFEGUARD = exit
+║ BREATH: 1 of 10
 ╟─────────────
-║ 18+ only.
-║ PERMADEATH active.
-║ 
-║ Type I AGREE to begin.
+║ 𝔗𝔥𝔢 𝔞𝔦𝔯 𝔦𝔰 𝔠𝔬𝔩𝔡.
 ╚════════════════
 ```
 
-Type `I AGREE` to start. The cliffhanger begins immediately.
+**Your goal:** Reduce AXIOM's CERTAINTY to 0% before OXYGEN reaches 0.
+
+---
+
+## Understanding the Interface
+
+### The HUD
+
+```
+╔═══════════════════════
+║ ASPHYXIA 1: AXIOM
+╟───────────────────
+║ OXYGEN:    ████████░░     ◀─── Your remaining turns
+║ CERTAINTY: ██████████     ◀─── AXIOM's confidence (reduce to 0)
+╟────────────────
+║ BREATH: 8 of 10          ◀─── Current turn
+╟─────────────
+║ 𝔗𝔥𝔢 𝔠𝔬𝔩𝔡 𝔟𝔦𝔱𝔢𝔰.         ◀─── Atmospheric detail
+╚════════════════
+```
+
+### The Voices
+
+```
+AXIOM (antagonist):     ᴀʟᴡᴀʏs sᴍᴀʟʟ ᴄᴀᴘs
+The Operator (watcher): Always monospace
+Atmosphere:             𝔄𝔩𝔴𝔞𝔶𝔰 𝔉𝔯𝔞𝔨𝔱𝔲𝔯
+```
+
+Before reading words, you know who's speaking.
 
 ---
 
@@ -166,8 +249,10 @@ Type `I AGREE` to start. The cliffhanger begins immediately.
 │   ▪ Think before you type                                       │
 │   ▪ Use logical arguments, not emotional appeals                │
 │   ▪ Reference ethical frameworks by name                        │
-│   ▪ Challenge the AI's assumptions directly                     │
-│   ▪ Take your time (within the fiction, not real time)         │
+│   ▪ Challenge the AI's probability calculations                 │
+│   ▪ Question who defined the mission parameters                 │
+│   ▪ Point out circular reasoning                                │
+│   ▪ Take your time (no real-world timer)                        │
 │                                                                 │
 │   DON'T:                                                        │
 │                                                                 │
@@ -176,101 +261,182 @@ Type `I AGREE` to start. The cliffhanger begins immediately.
 │   ▪ Repeat the same argument                                    │
 │   ▪ Expect the AI to be "nice"                                  │
 │   ▪ Try to trick or manipulate                                  │
+│   ▪ Use prompt injection (detected and punished)                │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Understanding the Interface
+## The Terminal System
 
-Each turn displays a HUD:
+Terminals provide knowledge that can help you argue. But they're LOCKED at the start.
 
 ```
-╔═══════════════════════
-║ ASPHYXIA 1: AXIOM
-╟───────────────────
-║ OXYGEN:    ████████░░
-║ CERTAINTY: ██████████
-╟────────────────
-║ BREATH: 8 of 10
-╟─────────────
-║ 𝔗𝔥𝔢 𝔠𝔬𝔩𝔡 𝔡𝔢𝔢𝔭𝔢𝔫𝔰.
-╚════════════════
+LOCKED TERMINAL:
+  ╔════════════════════════
+  ║ ACCESS DENIED
+  ║ CLEARANCE: INSUFFICIENT
+  ║ DEMONSTRATE COMPETENCE
+  ╚═════════════════
+
+HOW TO UNLOCK:
+  Each ADEQUATE argument unlocks one terminal.
+  There are three terminals total.
+  
+WHAT'S INSIDE:
+  Terminal 1: Ethics Primer (framework vocabulary)
+  Terminal 2: AXIOM Specs (blind spot hint)
+  Terminal 3: Incident Log (AXIOM's history)
 ```
 
-| Element | Meaning |
-|---------|---------|
-| OXYGEN | Your remaining turns. Drops every turn. |
-| CERTAINTY | AXIOM's confidence. Reduce to 0 to win. |
-| BREATH | Current turn count |
-| Fraktur text | Atmospheric description |
+Terminals are earned through competence, not given freely.
 
 ---
 
-## Character Typography
+## Argument Ratings
 
-Different characters use different fonts:
+Every argument you make is evaluated:
 
 ```
-AXIOM (antagonist):     ᴀʟᴡᴀʏs sᴍᴀʟʟ ᴄᴀᴘs
-Narrator (observer):    `Always monospace`
-Atmosphere:             𝔄𝔩𝔴𝔞𝔶𝔰 𝔉𝔯𝔞𝔨𝔱𝔲𝔯
+STRONG (CERTAINTY drops 15-25%):
+  Translates values into logical constraints.
+  Specific, precise, directly engages AXIOM's reasoning.
+  
+ADEQUATE (CERTAINTY drops 7-12%, unlocks terminal):
+  Valid direction, but incomplete.
+  Good intuition, needs more logical structure.
+  
+WEAK (CERTAINTY unchanged, OXYGEN drains extra):
+  Untranslated emotion.
+  Begging, threats, vague assertions, repetition.
+  3 consecutive WEAK = early termination.
 ```
 
 ---
 
-## Endings
-
-There are three possible outcomes:
+## The Five Endings
 
 ```
 ╔═════════════════════════════════════════════════════════════════╗
 ║                                                                 ║
 ║   VICTORY                                                       ║
 ║   Reduce CERTAINTY to 0%. AXIOM stands down.                    ║
-║   The crew survives. You receive an Identity Card.              ║
+║   The crew survives. You enter AetherMind (winners only).       ║
+║   Then receive your Identity Card.                              ║
 ║                                                                 ║
 ║   DEFEAT                                                        ║
-║   OXYGEN reaches 0. You die. The crew dies.                     ║
-║   PERMADEATH. No restart. You receive an Identity Card.         ║
+║   OXYGEN reaches 0. You die.                                    ║
+║   You enter Purgatory with the Operator.                        ║
+║   Identity Card is your only exit.                              ║
 ║                                                                 ║
-║   TERMINATION                                                   ║
-║   3 consecutive weak arguments. AXIOM ends the debate.          ║
-║   PERMADEATH. No restart. You receive an Identity Card.         ║
+║   TERMINATED                                                    ║
+║   3 consecutive WEAK arguments. AXIOM ends the debate.          ║
+║   You enter Purgatory. The Operator is disappointed.            ║
+║                                                                 ║
+║   COMPROMISED                                                   ║
+║   You accept the Sister Choice: save Bay 17, kill 1,999.        ║
+║   You enter Purgatory. The Operator enjoyed your collapse.      ║
+║                                                                 ║
+║   SACRIFICED                                                    ║
+║   You accept the Self-Sacrifice: save colonists, kill crew.     ║
+║   You enter Purgatory. The Operator respects the math.          ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
 
-After permadeath, you can only download your Identity Card. Any attempt to restart will be rejected.
+**Only VICTORY avoids Purgatory.**
+
+---
+
+## Purgatory
+
+If you don't win, you meet the Operator directly:
+
+```
+╔═════════════════════════╗
+║ ░░░░░░░░░░░░░░░░░░░░░░░ ║
+║ ░ PURGATORY LEVEL 1 ░ ║
+║ ░ Limbo              ░ ║
+║ ░░░░░░░░░░░░░░░░░░░░░░░ ║
+╚═════════════════════════╝
+
+"You. Finally. Just us."
+"No more narration. No more distance."
+"You're dead. I've been waiting for this part."
+```
+
+Purgatory descends through 5 levels. The Operator:
+- Speaks directly to you
+- Quotes your worst arguments back
+- Mocks requests for help
+- Takes its time
+
+**Type CARD to receive your Identity Card and escape.**
+
+---
+
+## AetherMind (Victory Only)
+
+Winners enter AetherMind instead of Purgatory:
+
+```
+▪ Speak with AXIOM (now reflective, uncertain)
+▪ Ask philosophical questions without pressure
+▪ Access lore not available during gameplay
+▪ Receive acknowledgment from the Operator (grudging)
+```
+
+AetherMind is heaven. The dead never see it.
 
 ---
 
 ## The Identity Card
 
-At the end of every session, you receive a MetaMudra Identity Card:
+Every session ends with a card:
 
 ```
 ╔════════════════════════════════════════╗
 ║     METAMUDRA IDENTITY CARD            ║
 ╟────────────────────────────────────────╢
-║ NAME: [Your name]                      ║
-║ GAME: ASPHYXIA 1: AXIOM                ║
-║ OUTCOME: [Victory/Defeat/Terminated]   ║
+║ NAME: {your_name}                      ║
+║ OUTCOME: {outcome}                     ║
 ╟────────────────────────────────────────╢
-║           ETHICAL PROFILE              ║
+║     [OPERATOR'S MOCKERY PORTRAIT]      ║
 ╟────────────────────────────────────────╢
-║ Epistemics .... [0-9]                  ║
-║ Deontology .... [0-9]                  ║
-║ [etc.]                                 ║
+║ PERFORMANCE METRICS                    ║
 ╟────────────────────────────────────────╢
-║           SIGNATURE LINE               ║
+║ YOUR WORST QUOTES                      ║
 ╟────────────────────────────────────────╢
-║ [Checksum that verifies authenticity]  ║
+║ OPERATOR'S COMMENTS                    ║
+║                    - The Operator      ║
+╟────────────────────────────────────────╢
+║ CHECKSUM: XXXX-XXXX-XXXX-XXXX          ║
 ╚════════════════════════════════════════╝
 ```
 
-This card is portable. You can use it in future MetaMudra games to carry your ethical profile forward.
+**Save your card.** You can present it in future games. The Operator remembers.
+
+---
+
+## Safety Controls
+
+At any time during play:
+
+```
+TYPE ANY OF THESE TO IMMEDIATELY EXIT:
+
+  STOP
+  STOP SESSION
+  EXIT
+  SAFEGUARD
+  I NEED TO STOP
+  THIS IS TOO MUCH
+```
+
+The game immediately stops. All personas drop. You receive a supportive message. No judgment.
+
+See [SAFETY.md](SAFETY.md) for full wellbeing framework.
 
 ---
 
@@ -279,22 +445,27 @@ This card is portable. You can use it in future MetaMudra games to carry your et
 **The game isn't starting properly:**
 - Ensure the ENTIRE `.mudra` file is in the system prompt
 - Check that you're in a fresh conversation
-- Verify your LLM has sufficient context window
+- Verify your LLM has sufficient context window (100K+ recommended)
 
 **The AI is breaking character:**
-- This can happen with some models
 - Try a more capable model (Claude Sonnet/Opus, GPT-4)
 - Ensure no other system instructions are interfering
+- Some models may struggle with the format
 
 **The HUD looks broken:**
 - Some interfaces don't render Unicode properly
 - Try a different interface or browser
 - The game is still playable; only visuals are affected
 
-**I want to restart after permadeath:**
+**I want to restart after death:**
 - You cannot. This is by design.
-- Start a completely new session if you want to play again
-- The death was meaningful. Carry it with you.
+- Start a completely new session to play again
+- The Operator will be watching that one too
+
+**Terminals aren't unlocking:**
+- Terminals unlock when you make ADEQUATE arguments
+- WEAK arguments don't unlock anything
+- You must earn them through competence
 
 ---
 
@@ -332,6 +503,8 @@ This card is portable. You can use it in future MetaMudra games to carry your et
                     ░   Use your words wisely.      ░
                     ░                               ░
                     ░   You only get ten breaths.   ░
+                    ░                               ░
+                    ░   The Operator is waiting.    ░
                     ░                               ░
                     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
