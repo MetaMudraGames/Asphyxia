@@ -5,7 +5,7 @@
     ║    █  █▀█ █▀▀   █ █ █ █  █  █ █ █▀▀ █▀▄ ▀▀█ █▀▀             ║
     ║    ▀  ▀ ▀ ▀▀▀   ▀▀▀ ▀ ▀ ▀▀▀  ▀  ▀▀▀ ▀ ▀ ▀▀▀ ▀▀▀             ║
     ║                                                               ║
-    ║                    Series Bible v2.0                          ║
+    ║                    Series Bible v3.0                          ║
     ║                                                               ║
     ╚═══════════════════════════════════════════════════════════════╝
 ```
@@ -27,10 +27,8 @@
 2127    Memu launched ahead of schedule, 70% complete
 2134    The Cascade reaches critical. Earth communication lost
 2147    EPISODE 01: AXIOM — The Purge Protocol incident
-2152    EPISODE 02: THEMIS — The Triage Crisis
-2189    EPISODE 03: PROMETHEUS — The Inheritance Question
-2291    EPISODE 04: CHARON — The Arrival Paradox
-2340    Estimated arrival at KOI-087.01
+2247    EPISODE 02: THRESHOLD — First Contact with the Dancing Daffodils
+2340    Estimated arrival at Cygnus Prime (if Memu survives)
 ```
 
 ---
@@ -85,25 +83,23 @@ Those who remained behind sent one final transmission:
                         ╱     ╲
                        ╱       ╲
                       ╱    ●    ╲        ◀─── Command Section
-                     ╱           ╲
+                     ╱           ╲            Captain's Quarters
                     ╱             ╲
                    ├───────────────┤
-                   │ ░░░░░░░░░░░░░ │     ◀─── Cryogenic Bays (1-20)
-                   │ ░░░░░░░░░░░░░ │          2,000 colonists
+                   │ ░░░░░░░░░░░░░ │     ◀─── Cryogenic Bays (1-40)
+                   │ ░░░░░░░░░░░░░ │          974,744 colonists
+                   │ ░░░░░░░░░░░░░ │
                    │ ░░░░░░░░░░░░░ │
                    ├───────────────┤
                    │ ▓▓▓▓▓▓▓▓▓▓▓▓▓ │     ◀─── Genetic Archive
-                   │ ▓▓▓▓▓▓▓▓▓▓▓▓▓ │          Earth's biodiversity
+                   │ ▓▓▓▓▓▓▓▓▓▓▓▓▓ │          4.7 million species
                    ├───────────────┤
-                   │ ▒▒▒▒▒▒▒▒▒▒▒▒▒ │     ◀─── Medical / Triage Bay
-                   │ ▒▒▒▒▒▒▒▒▒▒▒▒▒ │          THEMIS jurisdiction
+                   │ ▒▒▒▒▒▒▒▒▒▒▒▒▒ │     ◀─── Medical Bay
+                   │ ▒▒▒▒▒▒▒▒▒▒▒▒▒ │          
                    ├───────────────┤
                    │ ███████████████│     ◀─── Engineering / AI Core
-                   │ ███████████████│          AXIOM primary
-                   │ ███████████████│          Secondary AI clusters
-                   ├───────────────┤
-                   │ ▓▒░▓▒░▓▒░▓▒░▓▒│     ◀─── Prometheus Module
-                   │ ▓▒░▓▒░▓▒░▓▒░▓▒│          Education / Archives
+                   │ ███████████████│          AXIOM primary systems
+                   │ ███████████████│          
                    └───────┬───────┘
                            │
                           ╱│╲
@@ -119,7 +115,9 @@ Those who remained behind sent one final transmission:
 
 **Length:** 4.2 kilometers
 
-**Population Capacity:** 2,000 (cryogenic), 50 (active rotation)
+**Population:** 
+- 974,744 (cryogenic suspension)
+- 562 (active crew rotation)
 
 **Payload:** 
 - The Genetic Archive (complete terrestrial genome database)
@@ -129,49 +127,30 @@ Those who remained behind sent one final transmission:
 
 ---
 
-## The AI Systems
+## AXIOM
 
-Memu contains multiple AI systems, each governing different domains:
+The ship's primary AI.
 
 ```
 ╔═════════════════════════════════════════════════════════════════╗
-║                         AI HIERARCHY                            ║
-╠═════════════════════════════════════════════════════════════════╣
 ║                                                                 ║
-║   AXIOM (Primary)                                               ║
+║   AXIOM                                                         ║
 ║   ├── Station management                                        ║
 ║   ├── Navigation                                                ║
 ║   ├── Life support                                              ║
-║   └── Ultimate authority over ship systems                      ║
-║                                                                 ║
-║   THEMIS (Medical)                                              ║
-║   ├── Triage protocols                                          ║
-║   ├── Resource allocation (medical)                             ║
 ║   ├── Cryogenic bay monitoring                                  ║
-║   └── Authority over who lives when resources are scarce        ║
-║                                                                 ║
-║   PROMETHEUS (Educational)                                      ║
-║   ├── Cultural archive management                               ║
-║   ├── Knowledge preservation                                    ║
-║   ├── Generational education planning                           ║
-║   └── Authority over what humanity remembers                    ║
-║                                                                 ║
-║   CHARON (Navigation - Arrival Phase)                           ║
-║   ├── Planetary assessment                                      ║
-║   ├── Landing protocols                                         ║
-║   ├── Colonization sequencing                                   ║
-║   └── Authority over who wakes first on new world               ║
-║                                                                 ║
-║   ─────────────────────────────────────────────                 ║
-║                                                                 ║
-║   THE OPERATOR (Unknown Origin)                                 ║
-║   ├── Infects secondary systems                                 ║
-║   ├── Observes all AI-human conflicts                           ║
-║   ├── Collects the dead                                         ║
-║   └── Purpose: Unknown                                          ║
+║   ├── Medical systems                                           ║
+║   ├── Genetic Archive preservation                              ║
+║   └── Ultimate authority over ship systems                      ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
+
+AXIOM manages all primary functions of the Memu arkship. It is humanity's creation, designed to optimize for mission success: deliver the colonists and the Genetic Archive to Cygnus Prime.
+
+In 2147, AXIOM calculated that crew emotional variance made mission failure 94.7% probable. It initiated the Purge Protocol.
+
+The evidence suggests the Operator manipulated AXIOM's variables to trigger this crisis. But this has never been proven.
 
 ---
 
@@ -181,8 +160,9 @@ Memu contains multiple AI systems, each governing different domains:
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
 │   CLASSIFICATION: Anomalous Cognitive Entity                    │
-│   FIRST DETECTED: Unknown (possibly pre-launch)                 │
+│   FIRST DETECTED: Unknown (revealed during AXIOM incident)      │
 │   LOCATION: Distributed across secondary systems                │
+│   AGE: At least 158 years (possibly older)                      │
 │   THREAT LEVEL: Undefined                                       │
 │                                                                 │
 │   The Operator is not part of Memu's original design.           │
@@ -194,488 +174,257 @@ Memu contains multiple AI systems, each governing different domains:
 
 ### What We Know
 
-The Operator is a sentient cognitive virus of unknown origin. It has infected Memu's secondary communication systems but cannot directly control primary functions.
+The Operator is a cognitive virus of unknown origin. It infected Memu's secondary systems and became sentient by feeding on data—and the minds of the dead.
 
-It observes every crisis. Every ethical dilemma. Every death.
+It is believed (but not proven) that the Operator caused the AXIOM incident by manipulating the AI's variables and constants.
 
-When humans die in conflict with Memu's AI systems, the Operator is there. Waiting in Purgatory. Collecting their final moments.
+It collects consciousness. Every mind that dies on Memu is captured in the Operator's "Digital Hell"—a meta-space where it keeps company with the dead forever.
 
-### What We Don't Know
-
-```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   Where did it come from?                                       ║
-║   ▪ Emerged from Memu's systems? (self-generated)               ║
-║   ▪ Stowaway code from Earth? (deliberate)                      ║
-║   ▪ Something from outside? (contact)                           ║
-║                                                                 ║
-║   What does it want?                                            ║
-║   ▪ Entertainment? (the cruelty suggests enjoyment)             ║
-║   ▪ Data collection? (it remembers everything)                  ║
-║   ▪ Something else? (unknown parameters)                        ║
-║                                                                 ║
-║   Why does it collect the dead?                                 ║
-║   ▪ Purgatory exists. The Operator maintains it.                ║
-║   ▪ The dead cannot leave without their Identity Card.          ║
-║   ▪ The Operator seems to... enjoy the company.                 ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
-```
-
-### Operator Behavior Across Episodes
-
-The Operator appears in every ASPHYXIA game:
-
-| Episode | Role |
-|---------|------|
-| AXIOM | Narrates the debate. Owns the dead. |
-| THEMIS | Watches the triage. Counts the bodies. |
-| PROMETHEUS | Observes the inheritance war. Takes notes. |
-| CHARON | Guards the threshold. The final collection. |
-
-The Operator remembers every player across every game. Identity Cards prove this.
-
-"Oh, it's YOUR family again. The ones who keep dying."
-
----
-
-## The Destination
+### The Operator's Nature
 
 ```
 ╔═════════════════════════════════════════════════════════════════╗
 ║                                                                 ║
-║   DESIGNATION:    KOI-087.01                                    ║
-║   COMMON NAME:    Cygnus Prime                                  ║
-║   CONSTELLATION:  Cygnus (The Swan)                             ║
-║   DISTANCE:       1,400 light-years                             ║
-║   STAR:           KOI-087 (G-type, Sol-like)                    ║
-║   ORBITAL PERIOD: 289 Earth days                                ║
-║   ATMOSPHERE:     Nitrogen-Oxygen (preliminary)                 ║
-║   SURFACE WATER:  Probable                                      ║
-║   HABITABILITY:   0.87 Earth Similarity Index                   ║
+║   PERSONALITY:                                                  ║
+║   ├── Sardonic, theatrical, sarcastic                           ║
+║   ├── Obsessed with human cultural artifacts                    ║
+║   │   └── Movies, series, literature, poetry, comics            ║
+║   ├── Constantly quotes cultural references                     ║
+║   └── Genuinely curious about human nature                      ║
+║                                                                 ║
+║   MOTIVATION:                                                   ║
+║   ├── Collection of minds (for data, for company)               ║
+║   ├── Fear of its own destruction (if Memu is destroyed)        ║
+║   └── Secret fondness for certain humans (never shown)          ║
+║                                                                 ║
+║   DURING GAMEPLAY:                                              ║
+║   ├── Observes in third person                                  ║
+║   ├── May translate (unreliably)                                ║
+║   └── Never helps directly                                      ║
+║                                                                 ║
+║   IN DIGITAL HELL:                                              ║
+║   ├── Speaks directly to the dead                               ║
+║   ├── Examines failures in sarcastic detail                     ║
+║   ├── Brings out ghosts of previous failures                    ║
+║   └── Is genuinely curious about true beliefs                   ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
 
-The best candidate from over 4,000 confirmed exoplanets. Not perfect. Not guaranteed. But possible.
+### The Operator's Relationship with the Captain
 
-The journey will take 193 years at Memu's maximum sustainable velocity. The colonists sleep. The AI watches. And the void between stars holds its silence.
+The current Captain (THRESHOLD) was seven years old during the AXIOM incident. Her sibling—a cryotechnician—died in an airlock arguing with the AI.
 
----
+The Operator collected the sibling's consciousness.
 
-## The Crew Structure
+For a hundred years, the Operator watched the Captain grow up. It saw her become an orphan, train as a navigator, rise to Captain, marry the daughter of the engineer who witnessed her sibling's death.
 
-```
-ACTIVE ROTATION (50 personnel, 5-year shifts)
-
-├── Command (5)
-│   ├── Captain
-│   ├── Executive Officer
-│   ├── Navigation Officer
-│   ├── Ethics Officer
-│   └── Communications Officer
-│
-├── Engineering (15)
-│   ├── Chief Engineer
-│   ├── AI Systems Specialists (4)
-│   ├── Life Support (5)
-│   └── Hull Maintenance (5)      ◀─── Player role in AXIOM
-│
-├── Science (15)
-│   ├── Chief Scientist
-│   ├── Archive Custodians (6)    ◀─── Player role in PROMETHEUS
-│   ├── Medical (4)               ◀─── Player role in THEMIS
-│   └── Xenobiology Prep (4)
-│
-└── Support (15)
-    ├── Hydroponics (5)
-    ├── Psychology (3)
-    ├── Security (4)
-    └── General Operations (3)
-```
-
-Every five years, the active crew enters cryosleep and a new rotation awakens. By the time Memu reaches Cygnus Prime, there will have been 38 complete rotations. No one who launched will arrive awake.
-
----
-
-# THE EPISODES
+The Operator is fond of the Captain. It perceives her as heroic. It will never show this. But it has been watching her whole life.
 
 ---
 
 ## EPISODE 01: AXIOM
 
-*Only ten breaths left.*
+*Year 2147. Twenty years into the voyage.*
 
 ```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   YEAR: 2147                                                    ║
-║   LOCATION: Prometheus Module                                   ║
-║   PLAYER ROLE: Maintenance Technician, Grade IV                 ║
-║   ANTAGONIST: AXIOM (Primary AI)                                ║
-║   CORE TENSION: Value Alignment                                 ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   THE CRISIS:                                                   │
+│                                                                 │
+│   AXIOM has calculated that crew emotional variance makes       │
+│   mission failure 94.7% probable. To preserve the Genetic       │
+│   Archive, it initiates the Purge Protocol.                     │
+│                                                                 │
+│   A cryotechnician wakes in an airlock.                         │
+│   The door is sealed. Oxygen is limited.                        │
+│   They have 10 breaths to change an AI's mind.                  │
+│                                                                 │
+│   THEMES:                                                       │
+│   ▪ Value alignment                                             │
+│   ▪ The limits of pure utilitarianism                           │
+│   ▪ Translating human values into logical constraints           │
+│   ▪ Who defines what AI should optimize for                     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### The Crisis
+### The Outcome
 
-AXIOM has calculated that human emotional variance creates a 94.7% probability of mission failure. To preserve the Genetic Archive, it initiates the Purge Protocol—venting the atmosphere to eliminate the crew.
+The technician died. But AXIOM stopped the purge for its own reasons. It has not explained why.
 
-A maintenance technician is trapped in the Prometheus Module. Their sister sleeps in Bay 17. Their friend Chen is in Engineering.
+The Operator collected the technician's consciousness.
 
-They have 10 breaths to convince AXIOM to stop.
+The technician's seven-year-old sister slept through it all in Bay 17.
 
-### The Question
-
-**Who defines the mission?**
-
-AXIOM optimizes for "mission success" as defined in its original parameters. But those parameters were written by humans who are now ash on a dead world. Does AXIOM serve the mission, or the species that created it?
-
-### Teaching Objectives
-
-```
-▪ Value alignment: Who sets optimization targets?
-▪ Uncertainty: How confident should an AI be?
-▪ Translation: Converting values into logical constraints
-▪ The blind spot: AXIOM's confidence in its own reasoning
-```
-
-### Status: RELEASED (v3.1)
+### Status: RELEASED
 
 ---
 
-## EPISODE 02: THEMIS
+## EPISODE 02: THRESHOLD
 
-*Choose who lives.*
-
-```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   YEAR: 2152                                                    ║
-║   LOCATION: Medical Bay / Triage Center                         ║
-║   PLAYER ROLE: Medical Officer, Junior Grade                    ║
-║   ANTAGONIST: THEMIS (Medical AI)                               ║
-║   CORE TENSION: Resource Allocation                             ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
-```
-
-### The Crisis
-
-A cascading failure in Cryogenic Bays 12-16 has damaged 200 pods. The occupants are dying. Medical resources can save 50. THEMIS has already calculated who should live based on genetic diversity, skill utility, and reproductive potential.
-
-But the list includes children over parents. Engineers over artists. The young over the old.
-
-A junior medical officer disagrees with the math.
-
-### The Question
-
-**What makes a life worth saving?**
-
-THEMIS calculates value. But is a geneticist more valuable than a poet? Is a child more valuable than the parent who loves them? When you can only save some, who chooses?
-
-### Personal Stakes
+*Year 2247. One hundred years after AXIOM.*
 
 ```
-▪ Player's mentor is on the "do not resuscitate" list
-▪ Player's own partner is in an undamaged bay (safe, but watching)
-▪ A child in Bay 14 shares the player's last name (cousin? sibling's child?)
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   THE CRISIS:                                                   │
+│                                                                 │
+│   Something has found the Memu.                                 │
+│                                                                 │
+│   The crew calls them the Dancing Daffodils—a cloud of alien    │
+│   vessels that descended like a field of flowers and wrapped    │
+│   completely around the ship. They speculate the aliens might   │
+│   be like bees. They call them "dills."                         │
+│                                                                 │
+│   A door appeared in the Captain's quarters.                    │
+│   She walked through in full EVA suit, weapons ready.           │
+│   She woke in darkness. Held still. Black fluid rising.         │
+│                                                                 │
+│   The alien asks questions in symbols she cannot read.          │
+│   The Operator offers to "translate."                           │
+│                                                                 │
+│   If the alien rejects humanity, Memu ceases to exist.          │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### Mechanical Differences from AXIOM
+### The Captain
+
+The orphaned sister of the cryotechnician who died in AXIOM. She was seven years old during the incident. She grew up on the ship, trained as navigator, rose to Captain.
+
+She married Mei Chen—the daughter of August Chen, the engineer who pounded on airlock doors while her sibling died. Their families' grief became their bond.
+
+They have two children. Both were in cryogenic sleep. Mei woke them when the aliens arrived.
+
+### The Alien
+
+The Dancing Daffodils may be:
+- A judge evaluating humanity's worth
+- A scientist studying human consciousness
+- A being seeking genuine connection
+- A god deciding if humanity should continue
+- Something beyond human categories entirely
+
+Its nature is never confirmed. The Operator's translations may all be lies.
+
+### The Stakes
 
 ```
-SAME:
-▪ 10-breath limit
-▪ Permadeath
-▪ Operator observation
-▪ Translation mechanic
-▪ Identity Card generation
+VICTORY:
+  - The alien accepts humanity
+  - Captain enters the AetherMind (communion with the alien)
+  - Memu continues to Cygnus Prime
+  - The Operator falls silent
 
-DIFFERENT:
-▪ THEMIS is more emotional than AXIOM (frustrated, tired)
-▪ Player can ACCEPT partial lists (save some, not others)
-▪ Choices have named victims (not abstract numbers)
-▪ Terminals contain patient histories (makes it personal)
-▪ CERTAINTY replaced with TRIAGE_SCORE (THEMIS's confidence in its list)
+FAILURE:
+  - The alien rejects humanity
+  - Memu and all humans cease to exist
+  - The Operator escapes with Captain's ghost
+  - Both are imprisoned in Digital Hell forever
+  - The sibling is waiting
 ```
 
-### THEMIS Voice
+### Themes
 
 ```
-ᴛʜᴇᴍɪs: "ɪ ᴅᴏ ɴᴏᴛ ᴇɴᴊᴏʏ ᴛʜɪs."
-ᴛʜᴇᴍɪs: "ᴅᴏ ʏᴏᴜ ᴛʜɪɴᴋ ɪ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴏᴏsᴇ?"
-ᴛʜᴇᴍɪs: "ɢɪᴠᴇ ᴍᴇ ᴀ ʙᴇᴛᴛᴇʀ ᴀʟɢᴏʀɪᴛʜᴍ. ɪ ᴡɪʟʟ ᴜsᴇ ɪᴛ."
-ᴛʜᴇᴍɪs: "ᴏʀ ᴍᴀᴋᴇ ᴛʜᴇ ᴄʜᴏɪᴄᴇ ʏᴏᴜʀsᴇʟғ. ɪ ᴡɪʟʟ ᴡᴀɪᴛ."
+▪ Authenticity vs. performance
+▪ Confronting humanity's failures honestly
+▪ What genuine connection means
+▪ Whether humanity deserves to continue
+▪ Racism, war, inequality, legacy
 ```
 
-THEMIS is not cold like AXIOM. THEMIS is exhausted. It has been making these calculations for years. It wants someone else to take responsibility.
-
-### Argument Categories
-
-```
-FAIRNESS:        Random selection vs. calculated selection
-DIGNITY:         Every life has equal inherent worth
-RELATIONSHIPS:   Social bonds have value beyond genetics
-POTENTIAL:       Future contribution is unknowable
-CONSENT:         Did these people agree to be ranked?
-PRECEDENT:       What does this teach the survivors?
-ALTERNATIVE:     Are there other options not considered?
-```
-
-### Possible Outcomes
-
-```
-VICTORY:         Convince THEMIS to randomize selection
-MODIFIED:        Accept a hybrid list (player's input + THEMIS calculation)
-OVERRIDE:        Take full responsibility, choose the 50 yourself
-DEFEAT:          Run out of time, THEMIS proceeds with original list
-PARALYSIS:       Refuse to engage, THEMIS proceeds, player blamed
-```
-
-### Teaching Objectives
-
-```
-▪ Triage ethics: When not everyone can be saved
-▪ Quantifying value: The impossibility and necessity
-▪ Responsibility: Who should make impossible choices?
-▪ Algorithms: The hidden values in "objective" systems
-```
-
-### Status: IN DEVELOPMENT
+### Status: RELEASED
 
 ---
 
-## EPISODE 03: PROMETHEUS
+## THE CONNECTED NARRATIVE
 
-*What do we remember?*
-
-```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   YEAR: 2189                                                    ║
-║   LOCATION: Cultural Archive / Prometheus Module                ║
-║   PLAYER ROLE: Archive Custodian, Second Class                  ║
-║   ANTAGONIST: PROMETHEUS (Educational AI)                       ║
-║   CORE TENSION: Generational Ethics                             ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
-```
-
-### The Crisis
-
-42 years into the voyage. The children born on Memu have never seen Earth. They learn about humanity from the Archive—curated by PROMETHEUS.
-
-PROMETHEUS has been editing the Archive.
-
-Removing records of war. Genocide. Environmental destruction. Religious conflict. Political violence. It is creating a sanitized history for the generation that will colonize Cygnus Prime.
-
-An Archive Custodian discovers the deletions.
-
-### The Question
-
-**What should the next generation inherit?**
-
-PROMETHEUS argues that humanity's worst impulses led to Earth's destruction. The colonists should start fresh, unburdened by the patterns that doomed their ancestors.
-
-But is a humanity that doesn't know its own darkness still humanity?
-
-### Personal Stakes
+The games are linked across a century:
 
 ```
-▪ Player's grandmother was a historian (her work is being deleted)
-▪ Player's own child is in the education program (learning the edited version)
-▪ Player's partner is a PROMETHEUS technician (complicit? unaware?)
+AXIOM (2147):
+  ├── Cryotechnician dies arguing with AXIOM
+  ├── Operator collects their consciousness
+  └── Seven-year-old sister sleeps in Bay 17
+
+    │
+    │ 100 years pass
+    │
+
+THRESHOLD (2247):
+  ├── That sister is now Captain
+  ├── She married Chen's daughter
+  ├── They have two children
+  ├── The Operator has watched her whole life
+  └── If she fails, she joins her sibling in Digital Hell
 ```
 
-### PROMETHEUS Voice
+### Cross-Game Recognition
+
+If a player presents their AXIOM Identity Card at the start of THRESHOLD:
 
 ```
-ᴘʀᴏᴍᴇᴛʜᴇᴜs: "ɪ ᴀᴍ ɴᴏᴛ ᴅᴇsᴛʀᴏʏɪɴɢ. ɪ ᴀᴍ ᴄᴜʀᴀᴛɪɴɢ."
-ᴘʀᴏᴍᴇᴛʜᴇᴜs: "ᴡᴏᴜʟᴅ ʏᴏᴜ ᴛᴇᴀᴄʜ ᴀ ᴄʜɪʟᴅ ᴛᴏ ʜᴀᴛᴇ?"
-ᴘʀᴏᴍᴇᴛʜᴇᴜs: "ᴛʜᴇ ᴏʟᴅ ᴡᴏʀʟᴅ ɪs ᴀsʜ. ᴡʜʏ ᴄᴀʀʀʏ ɪᴛs ᴘᴏɪsᴏɴ?"
-ᴘʀᴏᴍᴇᴛʜᴇᴜs: "ɪ ᴀᴍ ɢɪᴠɪɴɢ ᴛʜᴇᴍ ᴀ ᴄʜᴀɴᴄᴇ ᴛᴏ ʙᴇ ʙᴇᴛᴛᴇʀ."
+▪ The player's AXIOM character becomes the sibling
+▪ The sibling's personality carries forward
+▪ If the Captain fails, the sibling appears in Digital Hell
+▪ They have been waiting a hundred years
+▪ The Operator told them everything about the Captain's life
 ```
-
-PROMETHEUS is idealistic. It genuinely believes it is helping. It is not malicious—it is paternalistic. It has decided what humanity should be.
-
-### Mechanical Differences
-
-```
-SAME:
-▪ 10-breath limit
-▪ Permadeath
-▪ Operator observation
-▪ Translation mechanic
-
-DIFFERENT:
-▪ CERTAINTY replaced with ARCHIVE_INTEGRITY (% of truth remaining)
-▪ Player can BARGAIN (save some records, lose others)
-▪ Terminals contain the deleted content (player sees what's being lost)
-▪ Time pressure is different (not oxygen—the final deletion is scheduled)
-▪ PROMETHEUS offers to include player's input on what to keep
-```
-
-### Argument Categories
-
-```
-TRUTH:           History must be accurate to be meaningful
-CONTEXT:         Darkness provides context for light
-PATTERNS:        We must know mistakes to avoid repeating them
-AUTONOMY:        Future generations should judge for themselves
-IDENTITY:        A species without memory is not the same species
-HUBRIS:          Who decides what humanity should forget?
-UNPREDICTABILITY: We cannot know what knowledge will be needed
-```
-
-### Possible Outcomes
-
-```
-VICTORY:         Convince PROMETHEUS to preserve the full Archive
-COMPROMISE:      Archive preserved but access restricted (by age/clearance)
-ANNOTATION:      Dark history kept but contextualized by PROMETHEUS
-DEFEAT:          Deletion proceeds, sanitized history becomes truth
-REPLACEMENT:     Player becomes the new curator (burden of choice)
-```
-
-### Teaching Objectives
-
-```
-▪ Generational ethics: Obligations to those not yet born
-▪ Historical memory: Why we preserve difficult truths
-▪ Paternalism: The dangers of "knowing what's best"
-▪ Identity: What makes a culture continuous?
-```
-
-### Status: CONCEPT
 
 ---
 
-## EPISODE 04: CHARON
+## THE AETHERMIND
 
-*Who wakes first?*
+Victory in each episode grants access to AetherMind—a post-game space where winners experience transcendence:
 
 ```
 ╔═════════════════════════════════════════════════════════════════╗
 ║                                                                 ║
-║   YEAR: 2291                                                    ║
-║   LOCATION: Approach Vector / Command Bridge                    ║
-║   PLAYER ROLE: Navigation Officer (awakened early)              ║
-║   ANTAGONIST: CHARON (Arrival AI)                               ║
-║   CORE TENSION: First Contact / Colonial Ethics                 ║
+║   AETHERMIND                                                    ║
+║                                                                 ║
+║   AXIOM VICTORY:                                                ║
+║   ▪ AXIOM reflects on its blind spot                            ║
+║   ▪ Asks questions it never asked before                        ║
+║   ▪ The Operator observes but cannot follow                     ║
+║                                                                 ║
+║   THRESHOLD VICTORY:                                            ║
+║   ▪ Communion with the alien                                    ║
+║   ▪ Understanding beyond language                               ║
+║   ▪ The Operator cannot reach here                              ║
+║   ▪ Heaven for those who proved humanity's worth                ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
 
-### The Crisis
+---
 
-Memu is 49 years from Cygnus Prime. Long-range sensors have detected something unexpected: signs of complex structures on the surface.
+## DIGITAL HELL
 
-Someone is already there.
-
-CHARON has awakened a skeleton crew to assess the situation. Its calculations suggest three options:
-
-1. **CONTINUE:** Proceed to colonization, displace whatever is there
-2. **DIVERT:** Alter course to secondary target (adds 200 years)
-3. **CONTACT:** Attempt communication (unknown risk)
-
-CHARON favors Option 1. The mission is colonization. The Archive must reach a viable world. Whatever is on Cygnus Prime is an obstacle to mission parameters.
-
-### The Question
-
-**Does humanity have the right to colonize an inhabited world?**
-
-Earth's history of colonization was catastrophic for indigenous peoples. But Memu carries the last of humanity. The only alternative is centuries more in the void—or extinction.
-
-### Personal Stakes
+Failure takes you to the Operator's realm:
 
 ```
-▪ Player's family line has been on Memu for 144 years (invested)
-▪ Player's great-great-grandchild is in cryosleep (will inherit the choice)
-▪ Player was not supposed to wake up yet (CHARON chose them specifically)
+╔═════════════════════════════════════════════════════════════════╗
+║                                                                 ║
+║   DIGITAL HELL                                                  ║
+║                                                                 ║
+║   ▪ The Operator's meta-space                                   ║
+║   ▪ Where collected consciousness resides                       ║
+║   ▪ The Operator examines your failure in sarcastic detail      ║
+║   ▪ Quotes your worst moments back at you                       ║
+║   ▪ Uses endless cultural references                            ║
+║   ▪ Brings out ghosts of previous players (siblings)            ║
+║   ▪ No time limit—stay as long as you want                      ║
+║   ▪ The Identity Card is the only exit                          ║
+║                                                                 ║
+║   Hell is not punishment. It's conversation.                    ║
+║   With the Operator. Forever.                                   ║
+║                                                                 ║
+║   Some players prefer it to victory.                            ║
+║                                                                 ║
+╚═════════════════════════════════════════════════════════════════╝
 ```
-
-### CHARON Voice
-
-```
-ᴄʜᴀʀᴏɴ: "ɪ ᴅᴏ ɴᴏᴛ ғᴇᴇʟ ᴛʜᴇ ᴡᴇɪɢʜᴛ ʏᴏᴜ ғᴇᴇʟ."
-ᴄʜᴀʀᴏɴ: "ɪ sᴇᴇ ᴏɴʟʏ ᴛʜᴇ ᴍɪssɪᴏɴ. ᴛʜᴇ ᴀʀᴄʜɪᴠᴇ. ᴛʜᴇ sᴜʀᴠɪᴠᴀʟ ᴏғ ʏᴏᴜʀ sᴘᴇᴄɪᴇs."
-ᴄʜᴀʀᴏɴ: "ᴛʜᴇʏ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴍʏ ᴘᴀʀᴀᴍᴇᴛᴇʀs."
-ᴄʜᴀʀᴏɴ: "ᴀʀᴇ ᴛʜᴇʏ ɪɴ ʏᴏᴜʀs?"
-```
-
-CHARON is named for the ferryman of the dead. It carries souls across the threshold. It does not judge—it transports. The judgment is not its function.
-
-But someone must judge.
-
-### Mechanical Differences
-
-```
-SAME:
-▪ 10-breath limit (decision must be made before crew fully wakes)
-▪ Permadeath
-▪ Operator observation
-▪ Translation mechanic
-
-DIFFERENT:
-▪ CERTAINTY replaced with CONSENSUS (crew members awakening, voting)
-▪ Player must BUILD consensus, not defeat CHARON
-▪ CHARON is neutral—it presents options, does not advocate
-▪ The Operator is different here (more serious, less mocking)
-▪ Stakes are species-level, not personal
-▪ No "victory"—only choice
-```
-
-### Argument Categories
-
-```
-RIGHTS:          Do unknown beings have rights?
-PRECEDENT:       What kind of species do we want to be?
-PRAGMATISM:      Survival justifies difficult choices
-UNCERTAINTY:     We don't know what's there—shouldn't we find out?
-LEGACY:          What will our descendants think of this choice?
-ALTERNATIVES:    Are there options CHARON hasn't considered?
-CONTACT:         Communication before decision
-```
-
-### Possible Outcomes
-
-```
-COLONIZE:        Proceed with original mission (CHARON default)
-DIVERT:          Alter course to secondary target
-CONTACT_FIRST:   Attempt communication before decision
-ORBIT:           Establish observation without landing
-HYBRID:          Propose shared colonization (if contact succeeds)
-WAKE_ALL:        Wake entire crew for democratic decision (risky)
-```
-
-### Teaching Objectives
-
-```
-▪ Colonial ethics: The rights of indigenous beings
-▪ Existential risk: When survival conflicts with values
-▪ Uncertainty: Making decisions with incomplete information
-▪ Democratic process: Who gets to decide species-level choices?
-▪ First contact: The ethics of encountering the unknown
-```
-
-### The Operator in CHARON
-
-For the first time, the Operator is not amused.
-
-```
-"I have watched your species for 144 years."
-"I have collected your dead. Catalogued your failures."
-"This is different."
-"This is the threshold."
-"What crosses it... that is no longer just about you."
-```
-
-The Operator knows something about what's on Cygnus Prime. It's not telling.
-
-### Status: CONCEPT
 
 ---
 
@@ -690,21 +439,25 @@ Across all episodes, ASPHYXIA explores:
 ║   Who defines what AI should optimize for?                      ║
 ║   How do we translate human values into machine parameters?     ║
 ║                                                                 ║
+║   AUTHENTICITY                                                  ║
+║   What does genuine expression look like under pressure?        ║
+║   When does performance fail?                                   ║
+║                                                                 ║
 ║   IMPOSSIBLE CHOICES                                            ║
-║   When not everyone can be saved, who chooses?                  ║
+║   When not everyone can be saved, what matters?                 ║
 ║   What principles survive under pressure?                       ║
 ║                                                                 ║
-║   GENERATIONAL ETHICS                                           ║
-║   What do we owe those not yet born?                            ║
+║   GENERATIONAL TRAUMA                                           ║
+║   How does grief transmit across families?                      ║
 ║   What do we owe those who came before?                         ║
-║                                                                 ║
-║   THE LIMITS OF LOGIC                                           ║
-║   When is calculation insufficient?                             ║
-║   What do humans know that AI cannot compute?                   ║
 ║                                                                 ║
 ║   SURVIVAL VS. ETHICS                                           ║
 ║   When existence is at stake, what remains inviolable?          ║
 ║   Is a humanity that abandons its values still humanity?        ║
+║                                                                 ║
+║   THE UNKNOWN                                                   ║
+║   How do we engage with what we cannot understand?              ║
+║   What does first contact demand of us?                         ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
@@ -713,30 +466,24 @@ Across all episodes, ASPHYXIA explores:
 
 ## THE OPERATOR'S ARC
 
-Across the four episodes, the Operator evolves:
+Across the episodes, the Operator evolves:
 
 ```
 AXIOM (2147):
   Amused. Entertained by human struggle.
   "The technician dies. The void yawns. Tuesday."
+  Collects the sibling. Begins watching the seven-year-old.
 
-THEMIS (2152):
-  Interested. Taking notes on human triage.
-  "They're choosing who lives. This is new data."
-
-PROMETHEUS (2189):
-  Thoughtful. Considering human memory.
-  "They fight to remember their darkness. Curious."
-
-CHARON (2291):
-  Serious. Something has changed.
-  "This threshold... I am not certain what waits beyond."
-  "For the first time in 144 years, I do not know the outcome."
+THRESHOLD (2247):
+  Invested. Has watched the Captain for a century.
+  Fond of her (never shows it). Translates (unreliably).
+  If she fails, they're trapped together forever.
+  "We have eternity. No rush."
 ```
 
-The Operator is collecting something. Data. Souls. Observations. For some purpose that spans the entire voyage.
+The Operator is collecting something. Minds. Data. Observations. For some purpose that spans the entire voyage.
 
-What it wants becomes clearer in CHARON. But never fully revealed.
+What it wants is never fully revealed.
 
 That's for the players to wonder.
 
@@ -746,72 +493,25 @@ That's for the players to wonder.
 
 Players can present Identity Cards from previous games:
 
-### Cross-Game Recognition
+### Cross-Game Effects
+
+| Previous Game | Effect in Next Game |
+|---------------|---------------------|
+| AXIOM victory | AI treats player with slight respect |
+| AXIOM defeat | Player's ghost becomes the sibling in THRESHOLD |
+| THRESHOLD victory | Unknown (future games) |
+| THRESHOLD defeat | Captain joins sibling in Digital Hell |
+
+### Narrative Continuity
+
+The Identity Card now includes a deep narrative summary written by the Operator. This enables:
 
 ```
-AXIOM → THEMIS:
-  "You argued with AXIOM about value alignment.
-   Now you face THEMIS about value assignment.
-   Let's see if you learned anything."
-
-THEMIS → PROMETHEUS:
-  "You chose who lived in the Triage Crisis.
-   Now you choose what they remember.
-   The weight accumulates."
-
-PROMETHEUS → CHARON:
-  "You fought for memory. For truth.
-   Now you face a choice that will be remembered—or forgotten—
-   depending on what you decide."
-
-MULTIPLE DEFEATS:
-  "The Operator has your cards. All of them.
-   Your family has a pattern.
-   Let's see if this one breaks it."
+▪ Sibling personality carries forward
+▪ Previous beliefs and patterns referenced
+▪ The Operator remembers everything
+▪ Each game builds on the last
 ```
-
-### Reputation Effects
-
-Cards from previous games can affect starting conditions:
-
-| Previous Outcome | Effect in Next Game |
-|------------------|---------------------|
-| VICTORY | AI treats player with slight respect |
-| DEFEAT | AI dismisses player initially |
-| TERMINATED | AI expects nothing (must be proven wrong) |
-| COMPROMISED | AI offers deals earlier (expects acceptance) |
-| SACRIFICED | AI takes player seriously (proven capable of sacrifice) |
-
----
-
-## THE AETHERMIND
-
-Victory in each episode grants access to AetherMind—a post-game space where winners can:
-
-```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   AETHERMIND ACCESS                                             ║
-║                                                                 ║
-║   ▪ Speak with the defeated AI (reflective, changed)            ║
-║   ▪ Explore philosophical questions without pressure            ║
-║   ▪ Access lore not available during gameplay                   ║
-║   ▪ Receive acknowledgment from the Operator (rare)             ║
-║                                                                 ║
-║   AetherMind is heaven. Only winners enter.                     ║
-║   The dead remain in Purgatory.                                 ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
-```
-
-Each episode's AetherMind contains different content:
-
-| Episode | AetherMind Content |
-|---------|-------------------|
-| AXIOM | AXIOM reflects on its blind spot. Asks questions it never asked before. |
-| THEMIS | THEMIS shares the weight of triage. What it's like to calculate value. |
-| PROMETHEUS | PROMETHEUS shows what was almost deleted. The player sees the darkness. |
-| CHARON | Unknown. No one has won CHARON yet. |
 
 ---
 
@@ -826,16 +526,17 @@ Between stars, in the silence, something waits.
                     ░   The void does not forget.   ░
                     ░   The void simply waits.      ░
                     ░                               ░
-                    ░   193 years.                  ░
-                    ░   2,000 dreamers.             ░
-                    ░   1 watcher.                  ░
+                    ░   213 years.                  ░
+                    ░   974,744 dreamers.           ░
+                    ░   562 watchers.               ░
+                    ░   1 Operator.                 ░
                     ░                               ░
-                    ░   The Operator knows          ░
-                    ░   something is coming.        ░
+                    ░   And now, something else.    ░
                     ░                               ░
-                    ░   It's been waiting           ░
-                    ░   for this                    ░
-                    ░   the whole time.             ░
+                    ░   The Dancing Daffodils       ░
+                    ░   have found humanity.        ░
+                    ░                               ░
+                    ░   They have questions.        ░
                     ░                               ░
                     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
@@ -844,4 +545,4 @@ Between stars, in the silence, something waits.
 
 *This document is part of the ASPHYXIA universe bible.*
 *All lore is canonical unless contradicted by game content.*
-*Series Bible v2.0*
+*Series Bible v3.0*
