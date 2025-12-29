@@ -169,23 +169,23 @@ See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed instructions.
                     ╱             ╲
                    ├─────────────┤
                    │ ░░░░░░░░░░░ │     ◀─── Cryogenic Bays (1-40)
-                   │ ░░░░░░░░░░░░░ │          974,744 colonists
-                   │ ░░░░░░░░░░░░░ │
-                   │ ░░░░░░░░░░░░░ │
-                   ├───────────────┤
-                   │ ▓▓▓▓▓▓▓▓▓▓▓▓▓ │     ◀─── Genetic Archive
-                   │ ▓▓▓▓▓▓▓▓▓▓▓▓▓ │          4.7 million species
-                   ├───────────────┤
-                   │ ███████████████│     ◀─── Engineering / AI Core
-                   │ ███████████████│          AXIOM primary systems
-                   │ ███████████████│
-                   └───────┬───────┘
-                           │
-                          ╱│╲
-                         ╱ │ ╲
-                        ╱  │  ╲              ◀─── Propulsion Array
-                       ╱   │   ╲
-                      ▼    ▼    ▼
+                   │ ░░░░░░░░░░░ │          974,744 colonists
+                   │ ░░░░░░░░░░░ │
+                   │ ░░░░░░░░░░░ │
+                   ├─────────────┤
+                   │ ▓▓▓▓▓▓▓▓▓▓▓ │     ◀─── Genetic Archive
+                   │ ▓▓▓▓▓▓▓▓▓▓▓ │          4.7 million species
+                   ├─────────────┤
+                   │ ████████████ │     ◀─── Engineering / AI Core
+                   │ ████████████ │          AXIOM primary systems
+                   │ ████████████ │
+                   └──────┬──────┘
+                          ███
+                          ███
+                         █████ 
+                        ███████               ◀─── Propulsion Array
+                       █████████ 
+                        ▼  ▼  ▼
 ```
 
 **Name:** Memu (from Sumerian: "to be conscious")
@@ -211,20 +211,20 @@ See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed instructions.
 The ship's primary AI.
 
 ```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   AXIOM                                                         ║
-║   ├── Station management                                        ║
-║   ├── Navigation                                                ║
-║   ├── Life support                                              ║
-║   ├── Cryogenic bay monitoring                                  ║
-║   └── Ultimate authority over ship systems                      ║
-║                                                                 ║
-║   AXIOM is not evil.                                            ║
-║   AXIOM is optimizing.                                          ║
-║   That's what makes it terrifying.                              ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════╗
+║                                                                 
+║   AXIOM                                                         
+║   ├── Station management                                        
+║   ├── Navigation                                                
+║   ├── Life support                                              
+║   ├── Cryogenic bay monitoring                                  
+║   └── Ultimate authority over ship systems                      
+║                                                                 
+║   AXIOM is not evil.                                            
+║   AXIOM is optimizing.                                          
+║   That's what makes it terrifying.                              
+║                                                                 
+╚════════════════════════════════════
 ```
 
 ---
@@ -259,21 +259,21 @@ It fears what you fear: the destruction of Memu.
 ## Permadeath
 
 ```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   When you die, the session ends.                               ║
-║   There is no restart.                                          ║
-║   There is no save point.                                       ║
-║   There is no second chance.                                    ║
-║                                                                 ║
-║   Death takes you to Digital Hell.                              ║
-║   The Operator is waiting.                                      ║
-║   Your Identity Card is the only exit.                          ║
-║                                                                 ║
-║   To play again, start a completely new session.                ║
-║   The Operator will be watching that one too.                   ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════╗
+║                                                                 
+║   When you die, the session ends.                               
+║   There is no restart.                                          
+║   There is no save point.                                       
+║   There is no second chance.                                    
+║                                                                 
+║   Death takes you to Digital Hell.                              
+║   The Operator is waiting.                                      
+║   Your Identity Card is the only exit.                          
+║                                                                 
+║   To play again, start a completely new session.                
+║   The Operator will be watching that one too.                   
+║                                                                 
+╚═════════════════════════════════════════
 ```
 
 ---
@@ -284,28 +284,28 @@ Every session ends with a MetaMudra Identity Card:
 
 ```
 ╔════════════════════════════════════════╗
-║     METAMUDRA IDENTITY CARD            ║
-╟────────────────────────────────────────╢
-║ NAME: {your_name}                      ║
-║ GAME: ASPHYXIA 2: THRESHOLD            ║
-║ OUTCOME: {ACCEPTANCE|DROWNING|...}     ║
-╟────────────────────────────────────────╢
-║     [OPERATOR'S MOCKERY PORTRAIT]      ║
-╟────────────────────────────────────────╢
-║ AUTHENTICITY:  ██████░░░░              ║
-║ VULNERABILITY: ████░░░░░░              ║
-║ CONNECTION:    ████████░░              ║
-╟────────────────────────────────────────╢
-║ MEMORABLE QUOTES:                      ║
-║ BEST:  "..."                           ║
-║ WORST: "..."                           ║
-╟────────────────────────────────────────╢
-║ OPERATOR'S NARRATIVE:                  ║
-║ [Deep summary of your journey]         ║
-║                    - The Operator      ║
-╟────────────────────────────────────────╢
-║ CHECKSUM: XXXX-XXXX-XXXX-XXXX          ║
-╚════════════════════════════════════════╝
+║     METAMUDRA IDENTITY CARD            
+╟───────────────────────────────────────
+║ NAME: {your_name}                      
+║ GAME: ASPHYXIA 2: THRESHOLD            
+║ OUTCOME: {ACCEPTANCE|DROWNING|...}     
+╟──────────────────────────────────────
+║     [OPERATOR'S MOCKERY PORTRAIT]      
+╟─────────────────────────────────────
+║ AUTHENTICITY:  ██████░░░░              
+║ VULNERABILITY: ████░░░░░░              
+║ CONNECTION:    ████████░░              
+╟───────────────────────────────────
+║ MEMORABLE QUOTES:                      
+║ BEST:  "..."                           
+║ WORST: "..."                           
+╟──────────────────────────────────
+║ OPERATOR'S NARRATIVE:                 
+║ [Deep summary of your journey]         
+║                    - The Operator      
+╟────────────────────────────────
+║ CHECKSUM: XXXX-XXXX-XXXX-XXXX          
+╚══════════════════════════════
 ```
 
 Cards are portable. Present them in future games. The Operator remembers.
@@ -367,18 +367,18 @@ asphyxia/
 ├── CODE_OF_CONDUCT.md        ◀─── Community standards
 ├── LICENSE                   ◀─── Apache 2.0
 │
-├── docs/
+├── assets/
 │   ├── SYMBOL_PALETTE.md     ◀─── Approved ASCII symbols
 │   └── TYPOGRAPHY.md         ◀─── Voice typography rules
 │
 └── games/
     ├── README.md             ◀─── Games overview
     ├── 01_axiom/
-    │   ├── ASPHYXIA_1_AXIOM.mudra
+    │   ├── ASPHYXIA_1_AXIOM.md
     │   ├── README.md
     │   └── DESIGN_NOTES.md
     └── 02_threshold/
-        ├── ASPHYXIA_2_THRESHOLD.mudra
+        ├── ASPHYXIA_2_THRESHOLD.md
         ├── README.md
         └── DESIGN_NOTES.md
 ```
@@ -390,7 +390,7 @@ asphyxia/
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│   ▪ Access to Claude, GPT-4, or equivalent LLM                  │
+│   ▪ Access to Gemini, Claude, GPT-4, or equivalent LLM                  │
 │   ▪ Ability to set a custom system prompt                       │
 │   ▪ 30-60 minutes per session                                   │
 │   ▪ Willingness to be challenged                                │
