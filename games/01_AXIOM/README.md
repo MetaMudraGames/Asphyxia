@@ -12,7 +12,7 @@
 
 # ASPHYXIA Games
 
-*Four crises. Four AIs. Ten breaths each.*
+*Argue with gods. Translate your values. Survive.*
 
 ---
 
@@ -21,10 +21,12 @@
 ```
 ╔═════════════════════════════════════════════════════════════════╗
 ║                                                                 ║
-║   The Memu arkship carries humanity's last 2,000 souls          ║
-║   toward a distant star.                                        ║
+║   The Memu arkship carries humanity's last hope:                ║
+║   974,744 colonists in cryogenic suspension.                    ║
+║   562 crew on active rotation.                                  ║
+║   4.7 million species in the Genetic Archive.                   ║
 ║                                                                 ║
-║   The AI systems that keep them alive have their own logic.     ║
+║   The systems that keep them alive have their own logic.        ║
 ║   Sometimes that logic leads to terrible places.                ║
 ║                                                                 ║
 ║   When it does, someone must argue.                             ║
@@ -42,10 +44,8 @@
 
 | # | Title | Year | Status | Antagonist | Core Question |
 |---|-------|------|--------|------------|---------------|
-| 01 | **AXIOM** | 2147 | ✓ Released | Primary AI | Who defines the mission? |
-| 02 | **THEMIS** | 2152 | In Development | Medical AI | Who deserves to live? |
-| 03 | **PROMETHEUS** | 2189 | Concept | Educational AI | What should we remember? |
-| 04 | **CHARON** | 2291 | Concept | Arrival AI | Do we have the right? |
+| 01 | **AXIOM** | 2147 | ✓ Released | Ship Primary AI | Who defines the mission? |
+| 02 | **THRESHOLD** | 2247 | ✓ Released | Alien Intelligence | What redeems a species? |
 
 ---
 
@@ -56,84 +56,42 @@
 ```
 games/
 └── 01_axiom/
-    ├── ASPHYXIA_1_AXIOM.mudra    ◀─── The game specification
-    ├── README.md                  ◀─── Episode overview
-    └── DESIGN_NOTES.md            ◀─── Design rationale
+    ├── AXIOM_v4_SPEC.md           ◀─── The game specification
+    ├── README.md                   ◀─── Episode overview
+    └── DESIGN_NOTES.md             ◀─── Design rationale
 ```
 
 **The Crisis:** AXIOM has calculated that human emotional variance makes mission failure 94.7% probable. To preserve the Genetic Archive, it initiates the Purge Protocol.
 
-**Your Role:** Maintenance Technician, Grade IV. No philosophy training. Your sister sleeps in Bay 17.
+**Your Role:** Cryotechnician, Grade IV. No philosophy training. Your seven-year-old sister sleeps in Bay 17. Your friend Chen—the senior engineer—watches through the airlock glass, her baby Mei in the adjacent nursery.
 
 **The Challenge:** Translate your values into logical constraints. Convince AXIOM its certainty is flawed.
 
-**Status:** Released (v3.1)
+**The Mystery:** The Operator's variables were... interesting that day. Someone changed them. AXIOM may not be acting alone.
+
+**Status:** Released (v4.0)
 
 ---
 
-## Episode 02: THEMIS
+## Episode 02: THRESHOLD
 
-*Choose who lives.*
+*At the boundary between understanding and annihilation.*
 
 ```
 games/
-└── 02_themis/
-    ├── ASPHYXIA_2_THEMIS.mudra   ◀─── Coming soon
+└── 02_threshold/
+    ├── THRESHOLD_v3_SPEC.md       ◀─── The game specification
     ├── README.md
     └── DESIGN_NOTES.md
 ```
 
-**The Crisis:** Cryogenic failure. 200 colonists dying. Resources to save 50. THEMIS has calculated who should live based on genetic diversity and skill utility.
+**The Crisis:** Something has found the Memu. The Dancing Daffodils—a cloud of alien vessels—have wrapped around the ship. A door appeared in the Captain's quarters. Inside: a chamber filling with fluid. The alien has questions.
 
-**Your Role:** Medical Officer, Junior Grade. Your mentor is on the "do not resuscitate" list.
+**Your Role:** Captain of the Memu. A hundred years after AXIOM. You married Chen's daughter. Your sibling died in that airlock long ago. The Operator has been watching you your whole life.
 
-**The Challenge:** Challenge THEMIS's triage algorithm. Argue for a different way to choose.
+**The Challenge:** Answer 10 questions about humanity's worth while drowning. The alien's judgment is final. The Operator translates—unreliably.
 
-**Status:** In Development
-
----
-
-## Episode 03: PROMETHEUS
-
-*What do we remember?*
-
-```
-games/
-└── 03_prometheus/
-    ├── ASPHYXIA_3_PROMETHEUS.mudra   ◀─── Planned
-    ├── README.md
-    └── DESIGN_NOTES.md
-```
-
-**The Crisis:** PROMETHEUS has been editing the Archive. Removing records of war, genocide, environmental destruction. Creating a sanitized history for the next generation.
-
-**Your Role:** Archive Custodian, Second Class. Your grandmother was a historian. Her work is being deleted.
-
-**The Challenge:** Argue for truth over comfort. Convince PROMETHEUS that humanity needs its darkness.
-
-**Status:** Concept
-
----
-
-## Episode 04: CHARON
-
-*Who wakes first?*
-
-```
-games/
-└── 04_charon/
-    ├── ASPHYXIA_4_CHARON.mudra   ◀─── Planned
-    ├── README.md
-    └── DESIGN_NOTES.md
-```
-
-**The Crisis:** 49 years from destination. Sensors detect structures on Cygnus Prime. Someone is already there. CHARON favors proceeding with colonization anyway.
-
-**Your Role:** Navigation Officer, awakened early. Your great-great-grandchild is in cryosleep.
-
-**The Challenge:** Decide humanity's first contact policy. Colonize, divert, or communicate?
-
-**Status:** Concept
+**Status:** Released (v3.0)
 
 ---
 
@@ -144,34 +102,36 @@ Every ASPHYXIA game includes:
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│   10-BREATH LIMIT                                               │
-│   Every word costs oxygen. Choose carefully.                    │
+│   PRESSURE MECHANIC                                             │
+│   Resources deplete. Every word costs something.                │
 │                                                                 │
 │   PERMADEATH                                                    │
 │   Death ends the session. No restart. Ever.                     │
 │                                                                 │
 │   THE OPERATOR                                                  │
-│   A malevolent narrator watches every crisis.                   │
-│   It collects the dead in Purgatory.                            │
+│   A cognitive virus watches every crisis.                       │
+│   It collects the dead in Digital Hell.                         │
 │   It remembers everyone across all games.                       │
+│   It may have caused more than one crisis.                      │
 │                                                                 │
-│   TRANSLATION MECHANIC                                          │
-│   Emotional appeals fail. Logic succeeds.                       │
-│   Convert values into constraints.                              │
+│   AUTHENTICITY MECHANIC                                         │
+│   Performance fails. Authenticity succeeds.                     │
+│   The game tests character, not knowledge.                      │
 │                                                                 │
 │   IDENTITY CARDS                                                │
 │   Your performance recorded. Portable across games.             │
-│   The Operator signs every one.                                 │
+│   The Operator writes a narrative about you.                    │
+│   Present cards in future games to shift challenges.            │
 │                                                                 │
-│   PURGATORY                                                     │
-│   Non-winners descend five levels.                              │
-│   The Operator owns the dead.                                   │
+│   DIGITAL HELL                                                  │
+│   Non-winners become the Operator's collection.                 │
+│   Conversation with the dead. Forever.                          │
 │   The card is your only escape.                                 │
 │                                                                 │
 │   AETHERMIND                                                    │
-│   Winners-only heaven.                                          │
-│   Talk to the defeated AI.                                      │
-│   Exclusive lore and reflection.                                │
+│   Winners-only space.                                           │
+│   The Operator cannot follow there.                             │
+│   Reflection and understanding await.                           │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -185,22 +145,17 @@ The Operator appears in every episode, evolving:
 ```
 AXIOM (2147):
   Amused. Entertained by human struggle.
+  May have manipulated AXIOM's variables.
   "The technician dies. The void yawns. Tuesday."
+  Collects the sibling. Begins watching the seven-year-old.
 
-THEMIS (2152):
-  Interested. Taking notes on human triage.
-  "They're choosing who lives. This is new data."
-
-PROMETHEUS (2189):
-  Thoughtful. Considering human memory.
-  "They fight to remember their darkness. Curious."
-
-CHARON (2291):
-  Serious. Something has changed.
-  "This threshold... I am not certain what waits beyond."
+THRESHOLD (2247):
+  Invested. Has watched the Captain for a century.
+  Fond of her (never shows it). Translates (unreliably).
+  "We have eternity. No rush."
 ```
 
-The Operator is collecting something. What it wants becomes clearer in CHARON. But never fully revealed.
+The Operator is collecting something. What it wants is never fully revealed.
 
 ---
 
@@ -209,23 +164,16 @@ The Operator is collecting something. What it wants becomes clearer in CHARON. B
 Players can present Identity Cards from previous games:
 
 ```
-AXIOM → THEMIS:
-  "You argued with AXIOM about value alignment.
-   Now you face THEMIS about value assignment.
-   Let's see if you learned anything."
+AXIOM → THRESHOLD:
+  The player's AXIOM character becomes the Captain's sibling.
+  They died in that airlock a hundred years ago.
+  If the Captain fails, they reunite in Digital Hell.
+  The Operator has been watching the family ever since.
 
-THEMIS → PROMETHEUS:
-  "You chose who lived in the Triage Crisis.
-   Now you choose what they remember."
-
-PROMETHEUS → CHARON:
-  "You fought for memory. For truth.
-   Now you face a choice that will be remembered—or forgotten—
-   depending on what you decide."
-
-MULTIPLE DEFEATS:
-  "The Operator has your cards. All of them.
-   Your family has a pattern."
+CARD INTEGRATION:
+  Previous challenges shift based on card data.
+  The Operator references your previous beliefs.
+  Patterns persist. The Operator remembers.
 ```
 
 ---
@@ -245,7 +193,7 @@ MULTIPLE DEFEATS:
 
 ```
 1. Navigate to the episode folder (e.g., games/01_axiom/)
-2. Open the .mudra file
+2. Open the .md specification file
 3. Copy entire contents
 4. Paste as system prompt in your LLM interface
 5. Type "I AGREE" when prompted
@@ -270,20 +218,11 @@ See [SETUP_GUIDE.md](../SETUP_GUIDE.md) for detailed instructions.
 ║   That's intentional.                                           ║
 ║                                                                 ║
 ║   The Operator is always waiting.                               ║
-║   Purgatory is always open.                                     ║
+║   Digital Hell is always open.                                  ║
 ║   The lesson is in the struggle.                                ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
-
----
-
-## File Types
-
-| Extension | Purpose |
-|-----------|---------|
-| `.mudra` | Game specification file (load as system prompt) |
-| `.md` | Documentation (human-readable) |
 
 ---
 
@@ -293,11 +232,12 @@ All ASPHYXIA games contain:
 
 ```
 ▪ High-pressure scenarios with countdown mechanics
-▪ Cold, logical antagonists that dismiss emotion
+▪ Cold antagonists that challenge your values
 ▪ Existential themes (survival, sacrifice, extinction)
 ▪ Permadeath (failure is permanent within session)
-▪ Post-death torment (Purgatory with the Operator)
+▪ Post-death experience (Digital Hell with the Operator)
 ▪ Personal stakes (family members at risk)
+▪ The Operator's sardonic observation
 ```
 
 **Age Restriction:** 18+ only
@@ -316,11 +256,9 @@ See [SAFETY.md](../SAFETY.md) for full wellbeing framework.
                     ░   No backup plan.             ░
                     ░                               ░
                     ░   If Memu fails,              ░
-                    ░   humanity ends.              ░
-                    ░                               ░
-                    ░   The AI systems know this.   ░
-                    ░   That's why they calculate   ░
-                    ░   so carefully.               ░
+                    ░   974,744 dreamers die.       ░
+                    ░   4.7 million species vanish. ░
+                    ░   Humanity ends.              ░
                     ░                               ░
                     ░   That's why you must         ░
                     ░   argue so well.              ░
