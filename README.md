@@ -48,7 +48,7 @@
 
 The year is 2127. Earth is dying. The Cascade—a series of cascading environmental collapses—has made the planet uninhabitable. Humanity launches its last hope: the arkship Memu.
 
-**974,744 souls** sleep in cryogenic suspension. **562 crew** remain awake in rotating shifts. Destination: Cygnus Prime. Travel time: 1213 years.
+**974,744 souls** sleep in cryogenic suspension. **562 crew** remain awake in rotating shifts. Destination: Cygnus Prime. Travel time: 1237 years.
 
 The ship's AI—AXIOM—manages everything. Navigation. Life support. The Genetic Archive containing 4.7 million species.
 
