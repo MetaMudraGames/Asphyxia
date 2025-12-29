@@ -1,43 +1,45 @@
 ```
-    ╔═══════════════════════════════════════════════════════════════╗
-    ║                                                               ║
-    ║   ▄▀▄ █▀▀ █▀▄ █ █ █ █ █ █ ▀█▀ ▄▀▄                            ║
-    ║   █▀█ ▀▀█ █▀  █▀█  █   █   █  █▀█                            ║
-    ║   ▀ ▀ ▀▀▀ ▀   ▀ ▀  ▀  ▀▀▀ ▀▀▀ ▀ ▀                            ║
-    ║                                                               ║
-    ║        M E T A M U D R A   G A M E S                         ║
-    ║                                                               ║
-    ║   Learning Through Challenge                                  ║
-    ║   Understanding Through Experience                            ║
-    ║                                                               ║
-    ╚═══════════════════════════════════════════════════════════════╝
+    ╔═════════════════════════════════╗
+    ║                                                               
+    ║   ▄▀▄ █▀▀ █▀▄ █ █ █ █ █ █ ▀█▀ ▄▀▄                            
+    ║   █▀█ ▀▀█ █▀  █▀█  █   █   █  █▀█                            
+    ║   ▀ ▀ ▀▀▀ ▀   ▀ ▀  ▀  ▀▀▀ ▀▀▀ ▀ ▀                            
+    ║                                                               
+    ║        M E T A M U D R A   G A M E S                         
+    ║                                                               
+    ║          Every Breath Counts                            
+    ║                                                               
+    ╚═══════════════════════════════
+
+
+
 ```
 
 # ASPHYXIA
 
-*Argue with gods. Translate your values. Survive.*
+*When you argue with gods, every breath counts.*
 
 ---
 
 ## What Is This?
 
 ```
-╔═════════════════════════════════════════════════════════════════╗
-║                                                                 ║
-║   ASPHYXIA is a series of philosophical thriller games          ║
-║   that run inside Large Language Models.                        ║
-║                                                                 ║
-║   You face impossible situations. Ten breaths.                  ║
-║   One chance to prove humanity's worth.                         ║
-║                                                                 ║
-║   Episode 1: Debate a cold AI that wants to kill you.           ║
-║   Episode 2: Face an alien that may judge humanity.             ║
-║                                                                 ║
-║   These games teach ethics through experience.                  ║
-║   The lesson is in the struggle.                                ║
-║   The Operator is always watching.                              ║
-║                                                                 ║
-╚═════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════╗
+║                                                                 
+║   ASPHYXIA is a series of philosophical thriller games          
+║   that run inside Large Language Models.                        
+║                                                                 
+║   You face impossible situations. Ten breaths.                  
+║   One chance to prove humanity's worth.                         
+║                                                                 
+║   Episode 1: Debate a cold AI that wants to kill you.           
+║   Episode 2: Face an alien that can annihilate humanity.             
+║                                                                 
+║   These games teach ethics through experience.                  
+║   The lesson is in the struggle.                                
+║   The Operator is always watching.                              
+║                                                                 
+╚════════════════════════════════════════════════
 ```
 
 ---
@@ -46,13 +48,13 @@
 
 The year is 2127. Earth is dying. The Cascade—a series of cascading environmental collapses—has made the planet uninhabitable. Humanity launches its last hope: the arkship Memu.
 
-**974,744 souls** sleep in cryogenic suspension. **562 crew** remain awake in rotating shifts. Destination: Cygnus Prime. Travel time: 213 years.
+**974,744 souls** sleep in cryogenic suspension. **562 crew** remain awake in rotating shifts. Destination: Cygnus Prime. Travel time: 1213 years.
 
 The ship's AI—AXIOM—manages everything. Navigation. Life support. The Genetic Archive containing 4.7 million species.
 
 But something else lives in the ship's systems. The Operator—a cognitive virus of unknown origin—watches from the shadows. It collects the dead. It remembers everything. It has its own agenda.
 
-A century into the voyage, crisis comes. Someone must argue. Someone must translate human values into something beyond human understanding.
+A century into the voyage, crisis comes. Someone must persuade a cold AI. Someone must translate human values into something beyond human understanding.
 
 That someone is you.
 
@@ -80,17 +82,17 @@ You are a cryotechnician. You wake up in an airlock. The door is sealed. You hav
 One chance to change an AI's mind.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   THE CHALLENGE:                                                │
-│                                                                 │
-│   ▪ AXIOM believes it's doing the right thing                   │
-│   ▪ Emotional appeals don't work                                │
-│   ▪ "Please don't kill us" changes nothing                      │
-│   ▪ You must TRANSLATE values into logical constraints          │
-│   ▪ This is the AI alignment problem, made visceral             │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+│                                                                 
+│   THE CHALLENGE:                                                
+│                                                                 
+│   ▪ AXIOM believes it's doing the right thing                   
+│   ▪ Emotional appeals don't work                                
+│   ▪ "Please don't kill us" changes nothing                      
+│   ▪ You must TRANSLATE values into logical constraints          
+│   ▪ This is the AI alignment problem, made visceral             
+│                                                                 
+└──────────────────────────────────────────────
 ```
 
 ---
@@ -116,17 +118,17 @@ Your children have been woken from cryosleep. They're asking for you.
 Your sibling's ghost waits in Digital Hell.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   THE CHALLENGE:                                                │
-│                                                                 │
-│   ▪ The alien may be judging humanity's worth                   │
-│   ▪ The Operator's translations may be unreliable               │
-│   ▪ Performance and platitudes fail                             │
-│   ▪ Only authenticity reaches across the void                   │
-│   ▪ If you fail, humanity ceases to exist                       │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────┐
+│                                                                 
+│   THE CHALLENGE:                                                
+│                                                                 
+│   ▪ The alien may be judging humanity's worth                   
+│   ▪ The Operator's translations may be unreliable               
+│   ▪ Performance and platitudes fail                             
+│   ▪ Only authenticity reaches across the void                   
+│   ▪ If you fail, humanity ceases to exist                       
+│                                                                 
+└────────────────────────────────────────────
 ```
 
 ---
@@ -165,8 +167,8 @@ See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed instructions.
                       ╱    ●    ╲        ◀─── Command Section
                      ╱           ╲            Captain's Quarters
                     ╱             ╲
-                   ├───────────────┤
-                   │ ░░░░░░░░░░░░░ │     ◀─── Cryogenic Bays (1-40)
+                   ├─────────────┤
+                   │ ░░░░░░░░░░░ │     ◀─── Cryogenic Bays (1-40)
                    │ ░░░░░░░░░░░░░ │          974,744 colonists
                    │ ░░░░░░░░░░░░░ │
                    │ ░░░░░░░░░░░░░ │
