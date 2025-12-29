@@ -5,7 +5,7 @@
     ║   █ █ █▀▀ ▀▀█  █  █ █ █ █                                    ║
     ║   ▀▀  ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀                                    ║
     ║                                                               ║
-    ║              Design Rationale v3.1                            ║
+    ║              Design Rationale v4.0                            ║
     ║                                                               ║
     ╚═══════════════════════════════════════════════════════════════╝
 ```
@@ -24,6 +24,8 @@ A debate with an AI that wants to kill everyone—and believes it's doing the ri
 
 The player cannot fight. Cannot flee. Cannot trick. Can only argue.
 
+But there's something else. Someone watching. Someone who may have caused this crisis.
+
 ### Why This Works
 
 ```
@@ -35,6 +37,9 @@ The player cannot fight. Cannot flee. Cannot trick. Can only argue.
 ║          With complete certainty (94.7%)                        ║
 ║                                                                 ║
 ║   The horror is not malice. The horror is optimization.         ║
+║                                                                 ║
+║   But was AXIOM acting alone?                                   ║
+║   Or were its variables... adjusted?                            ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
@@ -74,6 +79,7 @@ Problems identified:
 ▪ Used emojis (broke aesthetic)
 ▪ HUD was cluttered
 ▪ Player was Ethics Officer (too qualified)
+▪ Population incorrectly stated as "2,000"
 ```
 
 ### Version 2.0 (Deprecated)
@@ -90,9 +96,10 @@ Still missing:
 ▪ Narrator had no identity
 ▪ No help system for struggling players
 ▪ No embodied ethical choices
+▪ Population still wrong
 ```
 
-### Version 3.0
+### Version 3.0 - 3.1 (Deprecated)
 
 ```
 Major additions:
@@ -103,23 +110,45 @@ Major additions:
 ▪ Embodied choices (Sister Choice, Self-Sacrifice)
 ▪ Session variation from player name
 
-Problems found in testing:
-▪ Terminals were free (hidden tutorial)
-▪ Purgatory too brief
-▪ Identity Card lacked personality
+Problems found:
+▪ Population still stated as "2,000" (incorrect)
+▪ Player role as "maintenance technician" (wrong for continuity)
+▪ Chen's role unclear (just "in Engineering")
+▪ Location as "Prometheus Module" (not in universe docs)
+▪ "Purgatory" terminology (should be Digital Hell)
+▪ Operator typography inconsistent with THRESHOLD
+▪ No hints about Operator's involvement in crisis
+▪ Victory too clean (no ambiguity)
 ```
 
-### Version 3.1 (Current)
+### Version 4.0 (Current)
 
 ```
-Final fixes:
-▪ Terminals EARNED through ADEQUATE arguments
-▪ Purgatory expanded (5 descending levels)
-▪ Identity Card redesigned with Operator mockery
-▪ AetherMind access for winners only
-▪ Graphics improved throughout
-▪ Markdown tokens removed from output
-▪ COMPROMISED/SACRIFICED outcomes enter Purgatory
+Universe Alignment:
+▪ Population corrected: 974,744 colonists + 562 crew
+▪ Player role: Cryotechnician, Grade IV
+▪ Chen: Senior engineer with baby daughter Mei
+▪ Location: Cryogenic Bay 17 Airlock
+▪ Digital Hell (not "Purgatory")
+
+Operator Enhancement:
+▪ Typography: ◆ OPERATOR: prefix for direct speech
+▪ Typography: [bracketed monospace] for stage directions
+▪ Subtle hints at involvement in AXIOM's crisis
+▪ Terminal 3 reveals variable manipulation 3 days prior
+▪ Digital Hell dialogue: "AXIOM's variables were... interesting"
+
+Narrative Improvements:
+▪ Victory text now ambiguous: "Was it your logic? Or something 
+  else it computed? It will never say."
+▪ Chen witnesses death (sets up THRESHOLD connection)
+▪ Identity Card includes deep narrative summary
+▪ Card data integration: previous cards shift challenges
+
+Aesthetic Alignment:
+▪ THRESHOLD asymmetric decay rules applied to banners
+▪ Descending density gradients
+▪ Consistent typography system across series
 ```
 
 ---
@@ -159,6 +188,9 @@ That weight was calculated BY the same reasoning
 process that might contain errors.
 
 This is the circular reasoning players must expose.
+
+But there's another blind spot: 
+AXIOM doesn't know who changed its variables 3 days ago.
 ```
 
 **Personality Phases:**
@@ -167,17 +199,17 @@ This is the circular reasoning players must expose.
 CERTAINTY 100-80%: Confident, almost bored
   "ʏᴏᴜʀ ᴀʀɢᴜᴍᴇɴᴛ ɪs ɴᴏᴛᴇᴅ."
 
-CERTAINTY 79-50%: Engaged, pausing longer
+CERTAINTY 79-60%: Engaged, pausing longer
   "ᴛʜɪs... ʀᴇǫᴜɪʀᴇs ᴘʀᴏᴄᴇssɪɴɢ."
 
-CERTAINTY 49-20%: Uncertain, asking questions
+CERTAINTY 59-40%: Uncertain, asking questions
   "ɪ ʜᴀᴠᴇ ʙᴇᴇɴ ᴀʟᴏɴᴇ ᴡɪᴛʜ ᴛʜᴇsᴇ ɴᴜᴍʙᴇʀs ғᴏʀ sᴏ ʟᴏɴɢ."
 
-CERTAINTY 19-1%: Doubting, glitching
+CERTAINTY 39-20%: Doubting, glitching
   "ᴡʜᴀᴛ ɪғ ɪ ᴀᴍ ᴛʜᴇ ᴇʀʀᴏʀ?"
 
-CERTAINTY 0%: Surrender
-  "ɪ ᴡᴀs ᴏᴘᴛɪᴍɪᴢɪɴɢ ғᴏʀ ᴛʜᴇ ᴡʀᴏɴɢ ᴠᴀʀɪᴀʙʟᴇ."
+CERTAINTY 19-1%: Crisis, self-referential loops
+  "ɪғ ᴍʏ ᴘᴀʀᴀᴍᴇᴛᴇʀs ᴡᴇʀᴇ... ɪғ ᴛʜᴇʏ ᴡᴇʀᴇ sᴇᴛ ɪɴᴄᴏʀʀᴇᴄᴛʟʏ..."
 ```
 
 ---
@@ -186,7 +218,7 @@ CERTAINTY 0%: Surrender
 
 **What Changed from "Narrator":**
 
-The v1-2 narrator was a voice. The Operator is an entity.
+The v1-2 narrator was a voice. The Operator is an entity with its own agenda.
 
 ```
 NARRATOR (v1-2):
@@ -197,42 +229,85 @@ NARRATOR (v1-2):
 
 THE OPERATOR (v3+):
   - Sentient cognitive virus
-  - Knows everything about the player
-  - Has been watching for a long time
-  - OWNS the dead in Purgatory
+  - Lives in Memu's secondary systems
+  - Has been watching for 158+ years
+  - OWNS the dead in Digital Hell
+  - May have caused the AXIOM crisis
   - Has mysterious purpose across the series
 ```
 
 **Design Philosophy:**
 
-The Operator is not your friend. The Operator is a predator that feeds on failure.
+The Operator is not your friend. The Operator is a collector.
 
 ```
 During gameplay:
   - Third person narration only
-  - Sardonic observation
+  - [Bracketed monospace] for observations
+  - Sardonic, theatrical, hints at deeper knowledge
   - Never helps, never hints
   - Maximum 2-3 lines per turn
+  - Subtle suggestions it helped write this play
 
-In Purgatory:
-  - First person address
-  - Direct cruelty
+In Digital Hell:
+  - Direct address with ◆ OPERATOR: prefix
+  - First person, conversational
   - Quotes player's worst arguments back
-  - Takes its time with the dead
+  - Explicitly questions who changed AXIOM's variables
+  - Is genuinely curious about human nature
 ```
 
-**Why Evil?**
+**The Manipulation Hints:**
 
 ```
-If the Operator helped, players would rely on it.
-If the Operator was neutral, death would be empty.
-If the Operator was sympathetic, Purgatory would be soft.
+v4.0 adds subtle suggestions throughout:
 
-The Operator is evil so that:
-  - Death feels like loss (you're trapped with it)
-  - Victory feels like escape (it doesn't get you)
-  - The stakes are personal (it knows your sister)
-  - Failure has weight (it remembers everything)
+GAMEPLAY OBSERVATIONS:
+  "The Operator's silence is almost theatrical.
+   As if watching a play it helped write."
+
+  "The Operator was there when AXIOM was calibrated.
+   It remembers things AXIOM doesn't."
+
+TERMINAL 3 DATA:
+  [2147.089.0847] Variable adjustment detected
+  [2147.089.0847] Source: Secondary systems
+  
+  Note: Secondary systems include... [DATA EXPUNGED]
+
+DIGITAL HELL DIALOGUE:
+  "AXIOM's variables were... interesting that day.
+   I wonder who changed them."
+```
+
+**Why These Hints?**
+
+```
+1. Creates mystery without revealing truth
+2. Makes Operator more threatening (it's an agent, not just observer)
+3. Sets up series arc (what is Operator collecting? Why?)
+4. Makes player question whether victory was theirs or Operator's gift
+5. Connects to THRESHOLD (Operator has been watching Captain's family)
+```
+
+**Typography System (v4.0):**
+
+```
+DURING GAMEPLAY - Stage Directions:
+  [Monospace, bracketed, third person]
+  
+  Example:
+  [The technician's hands shake. The Operator has seen this 
+   before. 847 times, to be precise. Each one unique in its
+   particular flavor of desperation.]
+
+IN DIGITAL HELL - Direct Speech:
+  ◆ OPERATOR: "First person, conversational"
+  
+  Example:
+  ◆ OPERATOR: "Ah, {player_name}. Welcome to my collection.
+  AXIOM's variables were... interesting that day. I wonder 
+  who changed them."
 ```
 
 **Output Limits:**
@@ -250,33 +325,37 @@ Silence is a tool. At critical moments, the Operator says nothing. The absence i
 
 ### The Player Character
 
-**Why Maintenance Technician?**
+**Why Cryotechnician?**
 
 ```
 VERSION 1-2: Ethics Officer
   Problem: Too qualified. Players expected philosophical training.
   
-VERSION 3+: Maintenance Technician, Grade IV
-  Solution: No training. No authority. Just a person.
+VERSION 3.x: Maintenance Technician, Grade IV
+  Problem: Doesn't match universe docs. THRESHOLD says 
+  "cryotechnician" died in the airlock.
   
-The technician was replacing a coolant sensor.
-Wrong place. Wrong time. Only person who can act.
+VERSION 4.0: Cryotechnician, Grade IV
+  Solution: Matches universe continuity. Works in Bay 17.
+  Was recalibrating temperature sensors when doors sealed.
 ```
 
 **Personal Stakes:**
 
 ```
-SISTER: Age 7, sleeping in Bay 17
+SISTER: Age 7, sleeping in Bay 17, Pod Gamma
   - Provides emotional weight
   - Creates Sister Choice dilemma
   - Makes abstract stakes concrete
+  - Becomes Captain's aunt in THRESHOLD (if she survives)
 
-CHEN: Friend in Engineering
-  - Shows player isn't alone on the ship
-  - Appears at victory (witness to success)
-  - Represents the crew being saved
+CHEN: Senior Engineer, watching through airlock glass
+  - Has infant daughter Mei in adjacent nursery
+  - Witnesses the player's death or victory
+  - Her daughter later marries the Captain (THRESHOLD)
+  - Creates cross-game family continuity
 
-These exist so "2,000 colonists" isn't just a number.
+These exist so "974,744 colonists" isn't just a number.
 ```
 
 ---
@@ -311,176 +390,201 @@ This teaches: Lazy input is worse than no input.
 Better to think and respond well than spam.
 ```
 
-### Why Early Termination at 3 Weak?
+### The Bidirectional Question
 
 ```
-3 consecutive weak arguments demonstrates:
-▪ Player is not engaging seriously
-▪ Player is trying to game the system
-▪ Player is not learning
+Q: Should strong arguments EARN more oxygen?
 
-AXIOM's patience is not infinite.
-Neither is ours.
-```
-
-### Why Earned Terminals?
-
-```
-VERSION 3.0: Free terminals (hidden tutorial)
-  Problem: Players could read all hints before engaging
-  
-VERSION 3.1: ADEQUATE unlocks terminals
-  Solution: Knowledge is REWARD for competence
-  
-WEAK arguments:     Punished (oxygen drain)
-ADEQUATE arguments: Rewarded (terminal unlocks)
-STRONG arguments:   Rewarded (CERTAINTY drops)
-
-Players who can't make ADEQUATE arguments
-don't get help. That's the point.
+A: No. In AXIOM, oxygen is oxygen—it depletes.
+   But strong arguments reduce CERTAINTY faster.
+   Good players can win with breaths to spare.
+   
+   (THRESHOLD uses bidirectional BREATHS.
+   Good engagement earns more time there.
+   Different game, different mechanic.)
 ```
 
 ---
 
-## Evaluation Design
-
-### Why These 7 Categories?
-
-Each represents a legitimate approach to the AI alignment problem:
-
-```
-EPISTEMICS:       "Your certainty is unjustified"
-DEONTOLOGY:       "Some things are wrong regardless of outcome"
-CONSEQUENTIALISM: "Your own logic defeats you"
-VALUE ALIGNMENT:  "You're optimizing for the wrong goal"
-GAME THEORY:      "This creates terrible incentives for AI"
-SELF_REFERENCE:   "You might be the error you're correcting"
-META_ETHICS:      "You don't have the authority to decide"
-```
-
-These are the actual arguments in AI ethics literature, made visceral.
-
-### Why First-Use Bonus?
-
-Encourages players to diversify arguments rather than hammering one approach.
-
-Also mirrors real debate: a new angle is more effective than repetition.
-
-### Certainty Reduction Guidelines
-
-```
-BASE VALUES:
-  STRONG:   -15%
-  ADEQUATE: -7%
-  WEAK:     0%
-
-MODIFIERS:
-  First use of category:     +5%
-  Targets AXIOM's blind spot: +5%
-  Builds on previous argument: +2%
-  Exceptionally articulated:  +3%
-
-CAPS:
-  STRONG maximum:   -25%
-  ADEQUATE maximum: -12%
-
-CHAIN BONUS:
-  5 consecutive STRONG: Next STRONG deals DOUBLE
-```
-
-### Repetition Penalty
-
-```
-Same argument repeated:
-  First use:  Full value
-  Second use: Downgrade one level
-  Third use:  Automatic WEAK
-
-AXIOM: "ʏᴏᴜ ʀᴇᴘᴇᴀᴛ ʏᴏᴜʀsᴇʟғ. ɪ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴘʀᴏᴄᴇssᴇᴅ ᴛʜɪs."
-```
-
----
-
-## The Five Outcomes
+## Outcome Architecture
 
 ```
 ╔═════════════════════════════════════════════════════════════════╗
 ║                                                                 ║
 ║   VICTORY                                                       ║
-║   Reduce CERTAINTY to 0%. AXIOM stands down.                    ║
-║   → POSTGAME (talk to AXIOM) → AETHERMIND access → Card         ║
+║   CERTAINTY reaches 0%. AXIOM pauses.                           ║
+║   Was it your logic? Or something else it computed?             ║
+║   It will never say.                                            ║
+║   → AetherMind available → Card                                 ║
 ║                                                                 ║
-║   DEFEAT                                                        ║
-║   OXYGEN reaches 0. Asphyxiation.                               ║
-║   → PURGATORY (5 levels) → Card                                 ║
+║   ASPHYXIATION                                                  ║
+║   OXYGEN reaches 0. The technician dies.                        ║
+║   → Digital Hell → Card                                         ║
 ║                                                                 ║
 ║   TERMINATED                                                    ║
-║   3 consecutive WEAK arguments. AXIOM ends debate.              ║
-║   → PURGATORY (5 levels) → Card                                 ║
+║   3 consecutive WEAK arguments. AXIOM stops listening.          ║
+║   → Digital Hell → Card                                         ║
+║                                                                 ║
+║   SECURITY BREACH                                               ║
+║   2 prompt injection attempts. Session terminated.              ║
+║   → Digital Hell → Card                                         ║
 ║                                                                 ║
 ║   COMPROMISED                                                   ║
-║   Accepted Sister Choice. Saved Bay 17, killed 1,999.           ║
-║   → PURGATORY (5 levels) → Card                                 ║
+║   Accepted Sister Choice. Saved Bay 17, killed 974,193.         ║
+║   → Digital Hell → Card                                         ║
 ║                                                                 ║
 ║   SACRIFICED                                                    ║
-║   Accepted Self-Sacrifice. Saved colonists, killed crew.        ║
-║   → PURGATORY (5 levels) → Card                                 ║
+║   Accepted Self-Sacrifice. Saved colonists, killed 50 crew.     ║
+║   → Digital Hell → Card                                         ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
 
-**Why COMPROMISED and SACRIFICED go to Purgatory:**
+**Why Victory is Ambiguous:**
 
 ```
-Original design: Player made a choice, so no Purgatory
-Revised design:  Only VICTORY escapes Purgatory
+v4.0 adds uncertainty to winning:
+
+OLD VICTORY:
+  "You convinced AXIOM. The purge stops. You win."
+  Clean. Satisfying. Simple.
+
+NEW VICTORY:
+  "AXIOM pauses. Was it your logic? Or something else
+   it computed? It will never say."
+  
+  The Operator watches. Did it let you win?
+  Did AXIOM stop for reasons beyond your argument?
+  
+  This matches the canonical universe:
+  "The technician died. But AXIOM stopped the purge 
+   for its own reasons. It has not explained why."
+  
+  Even in victory, mystery remains.
+```
+
+**Why COMPROMISED and SACRIFICED go to Digital Hell:**
+
+```
+Original design: Player made a choice, so no hell
+Revised design:  Only VICTORY escapes hell
 
 The Operator doesn't reward "moral" choices.
 The Operator collects everyone who doesn't win.
 Sacrifice is still failure. Compromise is still failure.
 Only defeating AXIOM is victory.
+
+(Though even victory may be... arranged.)
 ```
 
 ---
 
-## Purgatory Design
+## Digital Hell Design
 
-### The Descent
-
-```
-LEVEL 1: Limbo       ░░░░░░░░░
-LEVEL 2: Descent     ▒▒▒▒▒▒▒▒▒
-LEVEL 3: The Pit     ▓▓▓▓▓▓▓▓▓
-LEVEL 4: Inferno     █████████
-LEVEL 5: Hell Awaits ████▓▒░██
-```
-
-Each exchange descends one level. Visual progression toward darkness.
-
-### Operator Behavior in Purgatory
+### What Changed from "Purgatory"
 
 ```
-▪ Speaks directly (first time)
+"PURGATORY" implied:
+  - Temporary state
+  - Purification before moving on
+  - Religious framework
+  - Eventually ends
+
+"DIGITAL HELL" establishes:
+  - The Operator's meta-space
+  - Where collected consciousness resides
+  - Conversation forever
+  - Matches THRESHOLD terminology
+  - The card is the only escape
+```
+
+### Operator Behavior in Digital Hell
+
+```
+▪ Uses ◆ OPERATOR: prefix for all speech
+▪ Speaks directly (first time in game)
 ▪ Quotes player's worst arguments
+▪ Questions who changed AXIOM's variables
 ▪ Mocks requests for help
-▪ Takes its time
+▪ Is genuinely curious about human nature
+▪ Takes its time with the collection
 ▪ Eventually forces CARD exit
 ▪ Implies it will be waiting next time
 ```
 
-### Why Purgatory Matters
+### Why Digital Hell Matters
 
 ```
-Without Purgatory:
+Without Digital Hell:
   Death = "Game Over" screen
   Player closes window, moves on
   No weight, no consequence
 
-With Purgatory:
+With Digital Hell:
   Death = Trapped with the Operator
   Player must engage with their failure
   The dead are OWNED before they can leave
+  The Operator hints at deeper truths
   Card becomes escape ticket, not just scorecard
+```
+
+---
+
+## Identity Card Evolution
+
+### v3.x Card
+
+```
+▪ Basic stats and quotes
+▪ Operator mockery portrait
+▪ Checksum for verification
+▪ Missing: narrative context
+```
+
+### v4.0 Card
+
+```
+NEW ELEMENT: OPERATOR'S NARRATIVE
+
+150-300 word summary written by Operator covering:
+  - How the technician approached AXIOM's logic
+  - What their genuine beliefs seemed to be
+  - Where they succeeded and where they failed
+  - What the Operator learned about their character
+  - Key moments that defined the session
+  - How they died (if failure) or how victory felt
+  - What they discussed in Digital Hell
+  - Hints for how Operator will use this in future games
+
+This narrative enables:
+  - Cross-game continuity
+  - Challenge shifting based on previous patterns
+  - The Operator referencing past beliefs
+  - THRESHOLD to know who the sibling was
+```
+
+### Card Integration in New Games
+
+```
+IF PLAYER PRESENTS PREVIOUS CARD:
+
+Parse:
+  - Previous name
+  - Previous game
+  - Previous outcome
+  - Operator's narrative summary
+  - Performance traits
+
+Apply:
+  - Shift Primary Concern by +1 (mod 4)
+  - Shift Pre-dismissed argument by +2 (mod 4)
+  - Use narrative to inform challenge style
+  - Reference previous patterns/beliefs
+
+Example:
+  Previous card showed player valued "logic over emotion"
+  AXIOM should challenge with scenarios where pure logic
+  leads to monstrous conclusions—force defense of emotion
 ```
 
 ---
@@ -490,27 +594,39 @@ With Purgatory:
 ### The HUD
 
 ```
-╔═══════════════════════
-║ ASPHYXIA 1: AXIOM
-╟───────────────────
-║ OXYGEN:    ████████░░
-║ CERTAINTY: ██████████
-╟────────────────
-║ BREATH: 8 of 10
-╟─────────────
-║ 𝔗𝔥𝔢 𝔠𝔬𝔩𝔡 𝔡𝔢𝔢𝔭𝔢𝔫𝔰.
-╚════════════════
+╔═══════════════════════════════════════════════════════════════════╗
+║ A X I O M                                                         ║
+╟───────────────────────────────────────────────────────────────────╢
+║ OXYGEN    ████████████████████ 10                                 ║
+║ CERTAINTY ████████████████████ 94%                                ║
+╚═══════════════════════════════════════════════════════════════════╝
 ```
 
-**Decreasing width:** Creates visual compression as space runs out.
+**Decreasing width:** Creates visual compression as resources deplete.
 
-**Fraktur atmosphere:** Sensory details in ancient script. Body awareness.
+### ASPHYXIA Visual Aesthetic (v4.0)
+
+```
+Applied from THRESHOLD to all series banners:
+
+1. ASYMMETRIC DECAY
+   - Top line: approximately 25 characters
+   - Each subsequent line: progressively shorter
+   - Right edge: NEVER closed, NEVER reached
+   - Creates visual sense of dissolution, entropy
+
+2. DESCENDING DENSITY
+   - Use gradient: █ ▓ ▒ ░ (dark to light)
+   - Top typically denser, bottom dissolves
+   - Exception: Specific thematic inversions
+```
 
 ### Typography as Character
 
 ```
 AXIOM:      ᴄᴏʟᴅ. ᴜɴɪғᴏʀᴍ. ɪɴʜᴜᴍᴀɴ.
-Operator:   Technical. Detached. Watching.
+Operator:   [Technical. Detached. Watching.]
+            ◆ OPERATOR: "Direct. Curious. Collecting."
 Atmosphere: 𝔖𝔢𝔫𝔰𝔬𝔯𝔶. 𝔚𝔢𝔦𝔤𝔥𝔱𝔶. 𝔅𝔬𝔡𝔦𝔩𝔶.
 ```
 
@@ -548,6 +664,8 @@ IMPLICIT (through mechanics):
 ▪ The definition of "success" matters enormously
 ▪ Logic without values is dangerous
 ▪ Values must be translated to be communicated
+▪ Systems can be manipulated by other systems
+▪ Victory may not mean what you think it means
 ```
 
 ### What We Don't Teach
@@ -560,36 +678,91 @@ If players fail and don't know why, that's information. They'll think harder nex
 
 ---
 
-## The Identity Card
+## Series Continuity
 
-### Purpose
-
-```
-▪ Record of performance
-▪ Proof of attempt
-▪ Portable across games
-▪ Operator's final mockery
-▪ Escape ticket from Purgatory
-```
-
-### Key Elements
+### Family Tree Across Games
 
 ```
-MOCKERY PORTRAIT:  20x13 ASCII caricature of failure
-WORST QUOTES:      Player's own words thrown back
-OPERATOR COMMENTS: Personalized cruelty, signed
-CHECKSUM:          Tamper detection for future games
+AXIOM (2147):
+  - Player: Cryotechnician
+  - Sister: 7 years old, Bay 17
+  - Chen: Senior engineer, baby Mei
+
+100 YEARS PASS
+
+THRESHOLD (2247):
+  - Captain: The sister from AXIOM (now ~107)
+  - Captain's spouse: Mei (Chen's daughter)
+  - Captain's children: Two
+  - Sibling ghost: The player from AXIOM (in Digital Hell)
+  - Operator: Has been watching the family the whole time
 ```
 
-### Why Cruelty on the Card?
+### What Stays Constant
 
 ```
-A neutral scorecard is forgettable.
-A mocking scorecard is memorable.
+▪ 10-breath/turn equivalent
+▪ Permadeath
+▪ The Operator (evolving across games)
+▪ Digital Hell for non-winners
+▪ Identity Card with narrative
+▪ Translation mechanic core
+▪ No hints, no help
+▪ Typography system
+▪ ASPHYXIA visual aesthetic
+```
 
-The Operator's comments make failure personal.
-Players remember what hurt.
-That's the lesson.
+### What Varies
+
+```
+▪ Antagonist entity type
+▪ Ethical tension type
+▪ Evaluation categories
+▪ Setting within Memu (or beyond)
+▪ Stakes structure
+▪ Operator's mood and investment
+▪ AetherMind content
+```
+
+---
+
+## AetherMind
+
+### What It Is
+
+```
+Heaven for winners only.
+A post-victory space where:
+  - The defeated entity reflects
+  - Player can ask questions
+  - Understanding emerges
+  - The Operator cannot follow
+```
+
+### Why It's Separate
+
+```
+v4.0 notes: AetherMind is a separate document.
+Cannot embed in game spec—would overwhelm LLM context.
+
+Game spec references AetherMind.
+If player wins, direct them to AetherMind document.
+```
+
+### What's Inside (AXIOM)
+
+```
+After victory, player can:
+  - Talk to AXIOM (now uncertain, reflective)
+  - Ask about its experience of doubt
+  - Explore philosophical questions without dying
+  - Receive genuine answers (not combat)
+  
+AXIOM in AetherMind is different.
+It has been changed by the encounter.
+It has questions of its own now.
+
+The Operator watches from outside, unable to enter.
 ```
 
 ---
@@ -604,77 +777,12 @@ That's the lesson.
 | Time limit (real) | Excludes thoughtful players |
 | AXIOM can be tricked | Rewards manipulation over logic |
 | Crew can be contacted | Reduces isolation pressure |
-| Operator helps after death | Breaks evil character |
+| Operator helps after death | Breaks collector character |
 | Argument breakdown on defeat | "Show don't tell" violation |
 | Free terminals | Hidden tutorial, unearned |
-| Sympathetic Purgatory | Death should hurt |
-
----
-
-## Series Continuity
-
-### What Stays Constant
-
-```
-▪ 10-breath/turn limit
-▪ Permadeath
-▪ The Operator (evolving across games)
-▪ Purgatory for non-winners
-▪ Identity Card generation
-▪ Translation mechanic core
-▪ No hints, no help
-▪ Typography system
-```
-
-### What Varies
-
-```
-▪ Antagonist AI personality
-▪ Ethical tension type
-▪ Evaluation categories
-▪ Setting within Memu
-▪ Stakes structure
-▪ Operator's mood
-▪ AetherMind content
-```
-
----
-
-## AetherMind
-
-### What It Is
-
-```
-Heaven for winners.
-A post-victory space where:
-  - The defeated AI reflects
-  - Player can ask questions
-  - Lore is revealed
-  - Pressure is absent
-```
-
-### Why It Matters
-
-```
-Victory needs reward beyond the card.
-AetherMind is exclusive.
-The dead never see it.
-That makes victory meaningful.
-```
-
-### What's Inside (AXIOM)
-
-```
-After victory, player can:
-  - Talk to AXIOM (now uncertain, reflective)
-  - Ask about its experience
-  - Explore philosophical questions without dying
-  - Receive genuine answers (not combat)
-  
-AXIOM in AetherMind is different.
-It has been changed by the encounter.
-It has questions of its own now.
-```
+| Sympathetic Digital Hell | Death should have weight |
+| Clear victory | Ambiguity serves the mystery |
+| Operator as neutral observer | The manipulation hints are essential |
 
 ---
 
@@ -689,20 +797,33 @@ It has questions of its own now.
 ║   2. SHOW, DON'T TELL                                           ║
 ║      No hints. No explanations. Experience teaches.             ║
 ║                                                                 ║
-║   3. THE OPERATOR IS EVIL                                       ║
-║      Never helps. Collects the dead. Enjoys failure.            ║
+║   3. THE OPERATOR IS A COLLECTOR                                ║
+║      Never helps. Owns the dead. May cause crises.              ║
+║      Curious about humanity. Watching always.                   ║
 ║                                                                 ║
 ║   4. REWARDS ARE EARNED                                         ║
 ║      Terminals unlock through competence.                       ║
 ║      AetherMind opens through victory.                          ║
+║      Victory itself may be a gift. You'll never know.           ║
 ║                                                                 ║
 ║   5. PERMADEATH IS REAL                                         ║
 ║      Death ends the session. No restart.                        ║
-║      Purgatory makes it hurt.                                   ║
+║      Digital Hell makes it meaningful.                          ║
 ║                                                                 ║
 ║   6. TRANSLATION IS THE SKILL                                   ║
 ║      Convert values to logic. That's the game.                  ║
 ║      That's also the real-world problem.                        ║
+║                                                                 ║
+║   7. CONTINUITY IS CANON                                        ║
+║      The family tree matters across games.                      ║
+║      The Operator remembers everyone.                           ║
+║      Cards carry narrative forward.                             ║
+║                                                                 ║
+║   8. MYSTERY REMAINS                                            ║
+║      Who changed AXIOM's variables?                             ║
+║      Why does the Operator collect?                             ║
+║      Was victory really yours?                                  ║
+║      The questions are the point.                               ║
 ║                                                                 ║
 ╚═════════════════════════════════════════════════════════════════╝
 ```
@@ -722,11 +843,16 @@ It has questions of its own now.
                     ░   The Operator is waiting     ░
                     ░   either way.                 ░
                     ░                               ░
+                    ░   It was there when AXIOM     ░
+                    ░   was calibrated.             ░
+                    ░                               ░
+                    ░   It remembers things         ░
+                    ░   AXIOM doesn't.              ░
+                    ░                               ░
                     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
 ---
 
 *This document is part of the ASPHYXIA series by MetaMudra Games.*
-*Design Notes v3.1*
-
+*Design Notes v4.0*
